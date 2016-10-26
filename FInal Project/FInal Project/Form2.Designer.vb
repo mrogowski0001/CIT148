@@ -46,7 +46,7 @@ Partial Class frmQuiz
         Me.grpAnswers.Controls.Add(Me.radAns3)
         Me.grpAnswers.Controls.Add(Me.radAns2)
         Me.grpAnswers.Controls.Add(Me.radAns1)
-        Me.grpAnswers.Location = New System.Drawing.Point(8, 157)
+        Me.grpAnswers.Location = New System.Drawing.Point(11, 157)
         Me.grpAnswers.Name = "grpAnswers"
         Me.grpAnswers.Size = New System.Drawing.Size(410, 141)
         Me.grpAnswers.TabIndex = 13
@@ -100,9 +100,9 @@ Partial Class frmQuiz
         'lblQuestion
         '
         Me.lblQuestion.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lblQuestion.Location = New System.Drawing.Point(15, 62)
+        Me.lblQuestion.Location = New System.Drawing.Point(11, 62)
         Me.lblQuestion.Name = "lblQuestion"
-        Me.lblQuestion.Size = New System.Drawing.Size(403, 58)
+        Me.lblQuestion.Size = New System.Drawing.Size(410, 58)
         Me.lblQuestion.TabIndex = 11
         Me.lblQuestion.Text = "Label1"
         '
@@ -124,13 +124,14 @@ Partial Class frmQuiz
         Me.btnSubmit.Name = "btnSubmit"
         Me.btnSubmit.Size = New System.Drawing.Size(97, 23)
         Me.btnSubmit.TabIndex = 12
-        Me.btnSubmit.Text = "Submit"
+        Me.btnSubmit.Text = "Submit Answer"
         Me.btnSubmit.UseVisualStyleBackColor = True
         '
         'txtIncorrectAns
         '
         Me.txtIncorrectAns.AccessibleRole = System.Windows.Forms.AccessibleRole.PageTabList
-        Me.txtIncorrectAns.Location = New System.Drawing.Point(395, 365)
+        Me.txtIncorrectAns.Enabled = False
+        Me.txtIncorrectAns.Location = New System.Drawing.Point(388, 368)
         Me.txtIncorrectAns.Name = "txtIncorrectAns"
         Me.txtIncorrectAns.Size = New System.Drawing.Size(33, 20)
         Me.txtIncorrectAns.TabIndex = 21
@@ -142,13 +143,13 @@ Partial Class frmQuiz
         Me.btnExit.Name = "btnExit"
         Me.btnExit.Size = New System.Drawing.Size(94, 23)
         Me.btnExit.TabIndex = 16
-        Me.btnExit.Text = "Exit"
+        Me.btnExit.Text = "Exit Quiz"
         Me.btnExit.UseVisualStyleBackColor = True
         '
         'lblIncorrectAns
         '
         Me.lblIncorrectAns.AutoSize = True
-        Me.lblIncorrectAns.Location = New System.Drawing.Point(294, 368)
+        Me.lblIncorrectAns.Location = New System.Drawing.Point(287, 371)
         Me.lblIncorrectAns.Name = "lblIncorrectAns"
         Me.lblIncorrectAns.Size = New System.Drawing.Size(95, 13)
         Me.lblIncorrectAns.TabIndex = 20
@@ -156,7 +157,8 @@ Partial Class frmQuiz
         '
         'txtCorrectAns
         '
-        Me.txtCorrectAns.Location = New System.Drawing.Point(101, 365)
+        Me.txtCorrectAns.Enabled = False
+        Me.txtCorrectAns.Location = New System.Drawing.Point(101, 368)
         Me.txtCorrectAns.Name = "txtCorrectAns"
         Me.txtCorrectAns.Size = New System.Drawing.Size(33, 20)
         Me.txtCorrectAns.TabIndex = 19
@@ -164,7 +166,7 @@ Partial Class frmQuiz
         'lblCorrectAns
         '
         Me.lblCorrectAns.AutoSize = True
-        Me.lblCorrectAns.Location = New System.Drawing.Point(8, 368)
+        Me.lblCorrectAns.Location = New System.Drawing.Point(8, 371)
         Me.lblCorrectAns.Name = "lblCorrectAns"
         Me.lblCorrectAns.Size = New System.Drawing.Size(87, 13)
         Me.lblCorrectAns.TabIndex = 18
@@ -172,10 +174,9 @@ Partial Class frmQuiz
         '
         'lblTitle
         '
-        Me.lblTitle.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lblTitle.Location = New System.Drawing.Point(15, 24)
+        Me.lblTitle.Location = New System.Drawing.Point(11, 24)
         Me.lblTitle.Name = "lblTitle"
-        Me.lblTitle.Size = New System.Drawing.Size(161, 24)
+        Me.lblTitle.Size = New System.Drawing.Size(183, 24)
         Me.lblTitle.TabIndex = 17
         Me.lblTitle.Text = "Question"
         '
@@ -187,7 +188,7 @@ Partial Class frmQuiz
         Me.btnNext.Name = "btnNext"
         Me.btnNext.Size = New System.Drawing.Size(94, 23)
         Me.btnNext.TabIndex = 14
-        Me.btnNext.Text = "Next"
+        Me.btnNext.Text = "Next Question"
         Me.btnNext.UseVisualStyleBackColor = True
         '
         'frmQuiz

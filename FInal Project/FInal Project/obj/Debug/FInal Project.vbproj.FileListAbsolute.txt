@@ -18,3 +18,5 @@ C:\Users\iewtpt\Documents\GitHub\CIT148\FInal Project\FInal Project\bin\Debug\FI
 C:\Users\iewtpt\Documents\GitHub\CIT148\FInal Project\FInal Project\obj\Debug\FInal_Project.frmQuiz.resources
 C:\Users\iewtpt\Documents\GitHub\CIT148\FInal Project\FInal Project\obj\Debug\FInal_Project.Resources.resources
 C:\Users\iewtpt\Documents\GitHub\CIT148\FInal Project\FInal Project\obj\Debug\FInal Project.vbproj.GenerateResource.Cache
+C:\Users\iewtpt\Documents\GitHub\CIT148\FInal Project\FInal Project\obj\Debug\FInal_Project.frmWelcome.resources
+C:\Users\iewtpt\Documents\GitHub\CIT148\FInal Project\FInal Project\obj\Debug\FInal_Project.frmExit.resources

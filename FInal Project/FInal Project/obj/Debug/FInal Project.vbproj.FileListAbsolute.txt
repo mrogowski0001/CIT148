@@ -68,3 +68,14 @@ C:\Users\Ace\Documents\GitHub\CIT148\FInal Project\FInal Project\bin\Debug\FInal
 C:\Users\Ace\Documents\GitHub\CIT148\FInal Project\FInal Project\obj\Debug\FInal Project.exe
 C:\Users\Ace\Documents\GitHub\CIT148\FInal Project\FInal Project\obj\Debug\FInal Project.xml
 C:\Users\Ace\Documents\GitHub\CIT148\FInal Project\FInal Project\obj\Debug\FInal Project.pdb
+C:\Users\Ace\Documents\GitHub\CIT148\FInal Project\FInal Project\bin\Debug\FInal Project.exe
+C:\Users\Ace\Documents\GitHub\CIT148\FInal Project\FInal Project\bin\Debug\FInal Project.pdb
+C:\Users\Ace\Documents\GitHub\CIT148\FInal Project\FInal Project\bin\Debug\FInal Project.xml
+C:\Users\Ace\Documents\GitHub\CIT148\FInal Project\FInal Project\obj\Debug\FInal Project.vbprojResolveAssemblyReference.cache
+C:\Users\Ace\Documents\GitHub\CIT148\FInal Project\FInal Project\obj\Debug\FInal_Project.frmWelcome.resources
+C:\Users\Ace\Documents\GitHub\CIT148\FInal Project\FInal Project\obj\Debug\FInal_Project.frmQuiz.resources
+C:\Users\Ace\Documents\GitHub\CIT148\FInal Project\FInal Project\obj\Debug\FInal_Project.frmExit.resources
+C:\Users\Ace\Documents\GitHub\CIT148\FInal Project\FInal Project\obj\Debug\FInal_Project.frmSummary.resources
+C:\Users\Ace\Documents\GitHub\CIT148\FInal Project\FInal Project\obj\Debug\FInal_Project.Resources.resources
+C:\Users\Ace\Documents\GitHub\CIT148\FInal Project\FInal Project\obj\Debug\FInal_Project.frmSubmitVerify.resources
+C:\Users\Ace\Documents\GitHub\CIT148\FInal Project\FInal Project\obj\Debug\FInal Project.vbproj.GenerateResource.Cache

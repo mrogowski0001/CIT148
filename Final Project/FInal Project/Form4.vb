@@ -81,6 +81,9 @@
         'writes simple text
         Write.Write("Try Again?")
 
+        'shows a mesagebox file was saved
+        MessageBox.Show("Saved Successfully", "Saved Successfully",MessageBoxButtons.OK)
+
         'closes the write method
         Write.Close()
 

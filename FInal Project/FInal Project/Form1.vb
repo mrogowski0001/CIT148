@@ -21,4 +21,7 @@
 
     End Sub
 
+    Private Sub lblInstructionsText_Click(sender As Object, e As EventArgs) Handles lblInstructionsText.Click
+
+    End Sub
 End Class

@@ -50,26 +50,31 @@ Partial Class frmSubmitVerify
         '
         'btnSubmit
         '
+        Me.btnSubmit.BackColor = System.Drawing.Color.Black
+        Me.btnSubmit.ForeColor = System.Drawing.Color.Yellow
         Me.btnSubmit.Location = New System.Drawing.Point(55, 210)
         Me.btnSubmit.Name = "btnSubmit"
         Me.btnSubmit.Size = New System.Drawing.Size(75, 23)
         Me.btnSubmit.TabIndex = 2
         Me.btnSubmit.Text = "Submit Quiz"
-        Me.btnSubmit.UseVisualStyleBackColor = True
+        Me.btnSubmit.UseVisualStyleBackColor = False
         '
         'btnContinue
         '
+        Me.btnContinue.BackColor = System.Drawing.Color.Black
+        Me.btnContinue.ForeColor = System.Drawing.Color.Yellow
         Me.btnContinue.Location = New System.Drawing.Point(281, 209)
         Me.btnContinue.Name = "btnContinue"
         Me.btnContinue.Size = New System.Drawing.Size(75, 23)
         Me.btnContinue.TabIndex = 3
         Me.btnContinue.Text = "Continue Quiz"
-        Me.btnContinue.UseVisualStyleBackColor = True
+        Me.btnContinue.UseVisualStyleBackColor = False
         '
         'frmSubmitVerify
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.Red
         Me.ClientSize = New System.Drawing.Size(408, 261)
         Me.ControlBox = False
         Me.Controls.Add(Me.btnContinue)

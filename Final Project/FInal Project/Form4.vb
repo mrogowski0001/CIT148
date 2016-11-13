@@ -51,4 +51,65 @@
         'Exit the application
         Application.Exit()
     End Sub
+
+    Private Sub btnsave_Click(sender As Object, e As EventArgs) Handles btnsave.Click
+        'Creates a variable for the SaveFileDialog (This is not required)
+        Dim saveFile As New SaveFileDialog
+
+        'Supplies a list of formats allowed to save as when dialog is open
+        saveFile.Filter = "Text Files|*.txt|Microsoft Word|.docx|JPeg Image|*.jpg|Bitmap Image|*.bmp|Gif Image|*.gif"
+
+        'Simple title
+        saveFile.Title = "Save File"
+
+        'Shows the dialog to save file as
+        saveFile.ShowDialog()
+        saveFile.FileName = saveFile.FileName
+
+        'variabale for streamwriter, to write to a txt, ect file
+        Dim Write As New System.IO.StreamWriter(saveFile.FileName)
+
+        'writes the information associated with title1
+        Write.Write(lblTitle1.Text + ": ")
+
+        'wrights the information associated with title2
+        Write.Write(lblTitle2.Text + vbNewLine)
+
+        'wrights the information associated with summarytext
+        Write.Write(lblSummartText.Text + vbNewLine + vbNewLine + vbNewLine)
+
+        'writes simple text
+        Write.Write("Try Again?")
+
+        'closes the write method
+        Write.Close()
+
+
+
+
+    End Sub
+
+    Private Sub btnExitQuiz_Click(sender As Object, e As EventArgs) Handles btnExitQuiz.Click
+
+    End Sub
+
+    Private Sub SaveFileDialog1_FileOk(sender As Object, e As System.ComponentModel.CancelEventArgs)
+
+    End Sub
+
+    Private Sub Splitter1_SplitterMoved(sender As Object, e As SplitterEventArgs) Handles Splitter1.SplitterMoved
+
+    End Sub
+
+    Private Sub lstSummary_SelectedIndexChanged(sender As Object, e As EventArgs) Handles lstSummary.SelectedIndexChanged
+
+    End Sub
+
+    Private Sub btnTryAgain_Click(sender As Object, e As EventArgs) Handles btnTryAgain.Click
+        'Hides current form
+        Me.Hide()
+        'Brings back the welcome form to retake the quiz
+        frmWelcome.Show()
+
+    End Sub
 End Class

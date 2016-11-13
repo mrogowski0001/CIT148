@@ -1,3 +1,0 @@
-Welcome to the Final Project Quiz. This is a sample quiz made in Visual Basic that uses text files to import questiona and answers.
-
-When the quiz loads, you will see the first question and four radio buttons to select from. Once you have made your selection and you are sure of your answer, click the Submit button to grade your answer.

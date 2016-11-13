@@ -1,4 +1,0 @@
-1, N, Albany, New York City, Brooklyn
-2, Thee are enough., Four is not enough., 2.5, What the hell kind of stupid question is this anyway?
-3, 1.5 million, 2 million, I have no idea and neither do you!, 50000
-4, 12, 6, 9, What's with the stupid questions?

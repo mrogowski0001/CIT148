@@ -387,4 +387,7 @@
 
     End Sub
 
+    Private Sub lblQuestion_Click(sender As Object, e As EventArgs) Handles lblQuestion.Click
+
+    End Sub
 End Class

@@ -54,6 +54,7 @@ Partial Class frmQuiz
         Me.grpAnswers.Controls.Add(Me.radAns3)
         Me.grpAnswers.Controls.Add(Me.radAns2)
         Me.grpAnswers.Controls.Add(Me.radAns1)
+        Me.grpAnswers.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.grpAnswers.Location = New System.Drawing.Point(12, 135)
         Me.grpAnswers.Name = "grpAnswers"
         Me.grpAnswers.Size = New System.Drawing.Size(420, 141)
@@ -108,6 +109,7 @@ Partial Class frmQuiz
         'lblQuestion
         '
         Me.lblQuestion.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.lblQuestion.ForeColor = System.Drawing.Color.Red
         Me.lblQuestion.Location = New System.Drawing.Point(12, 48)
         Me.lblQuestion.Name = "lblQuestion"
         Me.lblQuestion.Size = New System.Drawing.Size(412, 58)
@@ -116,26 +118,31 @@ Partial Class frmQuiz
         '
         'btnSubmit
         '
+        Me.btnSubmit.BackColor = System.Drawing.Color.Red
         Me.btnSubmit.DialogResult = System.Windows.Forms.DialogResult.Cancel
+        Me.btnSubmit.ForeColor = System.Drawing.Color.Aqua
         Me.btnSubmit.Location = New System.Drawing.Point(333, 289)
         Me.btnSubmit.Name = "btnSubmit"
         Me.btnSubmit.Size = New System.Drawing.Size(101, 23)
         Me.btnSubmit.TabIndex = 2
         Me.btnSubmit.Text = "Submit Quiz"
-        Me.btnSubmit.UseVisualStyleBackColor = True
+        Me.btnSubmit.UseVisualStyleBackColor = False
         '
         'btnExit
         '
+        Me.btnExit.BackColor = System.Drawing.Color.Red
         Me.btnExit.DialogResult = System.Windows.Forms.DialogResult.Cancel
+        Me.btnExit.ForeColor = System.Drawing.Color.Yellow
         Me.btnExit.Location = New System.Drawing.Point(331, 379)
         Me.btnExit.Name = "btnExit"
         Me.btnExit.Size = New System.Drawing.Size(101, 23)
         Me.btnExit.TabIndex = 3
         Me.btnExit.Text = "Exit Quiz"
-        Me.btnExit.UseVisualStyleBackColor = True
+        Me.btnExit.UseVisualStyleBackColor = False
         '
         'lblTitle
         '
+        Me.lblTitle.ForeColor = System.Drawing.Color.Red
         Me.lblTitle.Location = New System.Drawing.Point(11, 24)
         Me.lblTitle.Name = "lblTitle"
         Me.lblTitle.Size = New System.Drawing.Size(183, 24)
@@ -144,13 +151,15 @@ Partial Class frmQuiz
         '
         'btnNext
         '
+        Me.btnNext.BackColor = System.Drawing.Color.Red
         Me.btnNext.DialogResult = System.Windows.Forms.DialogResult.Cancel
+        Me.btnNext.ForeColor = System.Drawing.Color.Aqua
         Me.btnNext.Location = New System.Drawing.Point(119, 289)
         Me.btnNext.Name = "btnNext"
         Me.btnNext.Size = New System.Drawing.Size(101, 23)
         Me.btnNext.TabIndex = 0
         Me.btnNext.Text = "Next Question"
-        Me.btnNext.UseVisualStyleBackColor = True
+        Me.btnNext.UseVisualStyleBackColor = False
         '
         'Timer1
         '
@@ -158,6 +167,7 @@ Partial Class frmQuiz
         'lblTimeRemaining
         '
         Me.lblTimeRemaining.AutoSize = True
+        Me.lblTimeRemaining.ForeColor = System.Drawing.Color.Yellow
         Me.lblTimeRemaining.Location = New System.Drawing.Point(287, 24)
         Me.lblTimeRemaining.Name = "lblTimeRemaining"
         Me.lblTimeRemaining.Size = New System.Drawing.Size(72, 13)
@@ -178,23 +188,27 @@ Partial Class frmQuiz
         '
         'btnPrevious
         '
+        Me.btnPrevious.BackColor = System.Drawing.Color.Red
         Me.btnPrevious.DialogResult = System.Windows.Forms.DialogResult.Cancel
+        Me.btnPrevious.ForeColor = System.Drawing.Color.Aqua
         Me.btnPrevious.Location = New System.Drawing.Point(12, 289)
         Me.btnPrevious.Name = "btnPrevious"
         Me.btnPrevious.Size = New System.Drawing.Size(101, 23)
         Me.btnPrevious.TabIndex = 24
         Me.btnPrevious.Text = "Previous Question"
-        Me.btnPrevious.UseVisualStyleBackColor = True
+        Me.btnPrevious.UseVisualStyleBackColor = False
         '
         'btnCheckAnswer
         '
+        Me.btnCheckAnswer.BackColor = System.Drawing.Color.Red
         Me.btnCheckAnswer.DialogResult = System.Windows.Forms.DialogResult.Cancel
+        Me.btnCheckAnswer.ForeColor = System.Drawing.Color.Aqua
         Me.btnCheckAnswer.Location = New System.Drawing.Point(225, 289)
         Me.btnCheckAnswer.Name = "btnCheckAnswer"
         Me.btnCheckAnswer.Size = New System.Drawing.Size(102, 23)
         Me.btnCheckAnswer.TabIndex = 1
         Me.btnCheckAnswer.Text = "Check Answer"
-        Me.btnCheckAnswer.UseVisualStyleBackColor = True
+        Me.btnCheckAnswer.UseVisualStyleBackColor = False
         '
         'grpCheckedAnswers
         '
@@ -202,6 +216,7 @@ Partial Class frmQuiz
         Me.grpCheckedAnswers.Controls.Add(Me.lblIncorrectAnswers)
         Me.grpCheckedAnswers.Controls.Add(Me.txtCorrectAnswers)
         Me.grpCheckedAnswers.Controls.Add(Me.lblCorrectAnswers)
+        Me.grpCheckedAnswers.ForeColor = System.Drawing.Color.Red
         Me.grpCheckedAnswers.Location = New System.Drawing.Point(12, 320)
         Me.grpCheckedAnswers.Name = "grpCheckedAnswers"
         Me.grpCheckedAnswers.Size = New System.Drawing.Size(420, 46)
@@ -247,6 +262,7 @@ Partial Class frmQuiz
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.ClientSize = New System.Drawing.Size(451, 414)
         Me.ControlBox = False
         Me.Controls.Add(Me.grpCheckedAnswers)

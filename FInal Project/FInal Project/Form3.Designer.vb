@@ -29,6 +29,7 @@ Partial Class frmExit
         '
         'lblExitText
         '
+        Me.lblExitText.ForeColor = System.Drawing.Color.Red
         Me.lblExitText.Location = New System.Drawing.Point(12, 9)
         Me.lblExitText.Name = "lblExitText"
         Me.lblExitText.Size = New System.Drawing.Size(294, 43)
@@ -37,31 +38,37 @@ Partial Class frmExit
         '
         'btnYes
         '
+        Me.btnYes.BackColor = System.Drawing.Color.Red
+        Me.btnYes.ForeColor = System.Drawing.Color.Yellow
         Me.btnYes.Location = New System.Drawing.Point(13, 56)
         Me.btnYes.Name = "btnYes"
         Me.btnYes.Size = New System.Drawing.Size(75, 23)
         Me.btnYes.TabIndex = 1
         Me.btnYes.Text = "Yes"
-        Me.btnYes.UseVisualStyleBackColor = True
+        Me.btnYes.UseVisualStyleBackColor = False
         '
         'btnNo
         '
+        Me.btnNo.BackColor = System.Drawing.Color.Red
+        Me.btnNo.ForeColor = System.Drawing.Color.Yellow
         Me.btnNo.Location = New System.Drawing.Point(214, 56)
         Me.btnNo.Name = "btnNo"
         Me.btnNo.Size = New System.Drawing.Size(75, 23)
         Me.btnNo.TabIndex = 0
         Me.btnNo.Text = "No"
-        Me.btnNo.UseVisualStyleBackColor = True
+        Me.btnNo.UseVisualStyleBackColor = False
         '
         'frmExit
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.ClientSize = New System.Drawing.Size(301, 112)
         Me.ControlBox = False
         Me.Controls.Add(Me.btnNo)
         Me.Controls.Add(Me.btnYes)
         Me.Controls.Add(Me.lblExitText)
+        Me.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.Name = "frmExit"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Exit the Quiz"

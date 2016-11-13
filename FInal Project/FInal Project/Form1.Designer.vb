@@ -31,6 +31,7 @@ Partial Class frmWelcome
         '
         'btnBegin
         '
+        Me.btnBegin.ForeColor = System.Drawing.Color.Blue
         Me.btnBegin.Location = New System.Drawing.Point(103, 363)
         Me.btnBegin.Name = "btnBegin"
         Me.btnBegin.Size = New System.Drawing.Size(237, 23)
@@ -40,6 +41,7 @@ Partial Class frmWelcome
         '
         'lblWelcomeText
         '
+        Me.lblWelcomeText.ForeColor = System.Drawing.Color.Red
         Me.lblWelcomeText.Location = New System.Drawing.Point(12, 52)
         Me.lblWelcomeText.Name = "lblWelcomeText"
         Me.lblWelcomeText.Size = New System.Drawing.Size(413, 66)
@@ -49,6 +51,7 @@ Partial Class frmWelcome
         'lblInstructionsText
         '
         Me.lblInstructionsText.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblInstructionsText.ForeColor = System.Drawing.Color.Red
         Me.lblInstructionsText.Location = New System.Drawing.Point(15, 130)
         Me.lblInstructionsText.Name = "lblInstructionsText"
         Me.lblInstructionsText.Size = New System.Drawing.Size(410, 230)
@@ -58,6 +61,7 @@ Partial Class frmWelcome
         'lblTitle2
         '
         Me.lblTitle2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblTitle2.ForeColor = System.Drawing.Color.Red
         Me.lblTitle2.Location = New System.Drawing.Point(15, 96)
         Me.lblTitle2.Name = "lblTitle2"
         Me.lblTitle2.Size = New System.Drawing.Size(410, 34)
@@ -68,6 +72,7 @@ Partial Class frmWelcome
         'lblTitle
         '
         Me.lblTitle.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblTitle.ForeColor = System.Drawing.Color.Red
         Me.lblTitle.Location = New System.Drawing.Point(12, 9)
         Me.lblTitle.Name = "lblTitle"
         Me.lblTitle.Size = New System.Drawing.Size(413, 34)
@@ -79,6 +84,7 @@ Partial Class frmWelcome
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.ClientSize = New System.Drawing.Size(437, 408)
         Me.Controls.Add(Me.lblTitle)
         Me.Controls.Add(Me.lblTitle2)

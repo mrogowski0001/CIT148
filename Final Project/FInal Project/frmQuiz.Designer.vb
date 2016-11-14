@@ -44,8 +44,14 @@ Partial Class frmQuiz
         Me.lblIncorrectAnswers = New System.Windows.Forms.Label()
         Me.txtCorrectAnswers = New System.Windows.Forms.TextBox()
         Me.lblCorrectAnswers = New System.Windows.Forms.Label()
+        Me.BindingSource1 = New System.Windows.Forms.BindingSource(Me.components)
+        Me.QuizDataSet = New FInal_Project.QuizDataSet()
+        Me.QuestionsTableAdapter = New FInal_Project.QuizDataSetTableAdapters.QuestionsTableAdapter()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.grpAnswers.SuspendLayout()
         Me.grpCheckedAnswers.SuspendLayout()
+        CType(Me.BindingSource1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.QuizDataSet, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'grpAnswers
@@ -243,12 +249,34 @@ Partial Class frmQuiz
         Me.lblCorrectAnswers.TabIndex = 0
         Me.lblCorrectAnswers.Text = "Correct Answers:"
         '
+        'BindingSource1
+        '
+        Me.BindingSource1.DataMember = "Questions"
+        Me.BindingSource1.DataSource = Me.QuizDataSet
+        '
+        'QuizDataSet
+        '
+        Me.QuizDataSet.DataSetName = "QuizDataSet"
+        Me.QuizDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
+        '
+        'QuestionsTableAdapter
+        '
+        Me.QuestionsTableAdapter.ClearBeforeFill = True
+        '
+        'TextBox1
+        '
+        Me.TextBox1.Location = New System.Drawing.Point(47, 381)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox1.TabIndex = 33
+        '
         'frmQuiz
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(451, 414)
         Me.ControlBox = False
+        Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.grpCheckedAnswers)
         Me.Controls.Add(Me.btnCheckAnswer)
         Me.Controls.Add(Me.btnPrevious)
@@ -267,6 +295,8 @@ Partial Class frmQuiz
         Me.grpAnswers.PerformLayout()
         Me.grpCheckedAnswers.ResumeLayout(False)
         Me.grpCheckedAnswers.PerformLayout()
+        CType(Me.BindingSource1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.QuizDataSet, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -292,4 +322,8 @@ Partial Class frmQuiz
     Friend WithEvents lblCorrectAnswers As System.Windows.Forms.Label
     Friend WithEvents txtIncorrectAnswers As System.Windows.Forms.TextBox
     Friend WithEvents lblIncorrectAnswers As System.Windows.Forms.Label
+    Friend WithEvents BindingSource1 As System.Windows.Forms.BindingSource
+    Friend WithEvents QuizDataSet As FInal_Project.QuizDataSet
+    Friend WithEvents QuestionsTableAdapter As FInal_Project.QuizDataSetTableAdapters.QuestionsTableAdapter
+    Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
 End Class

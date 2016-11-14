@@ -26,3 +26,6 @@ C:\Users\iewtpt\Documents\Visual Studio 2013\Projects\Final Project\FInal Projec
 C:\Users\iewtpt\Documents\Visual Studio 2013\Projects\Final Project\FInal Project\FInal Project\obj\Debug\FInal_Project.frmExit.resources
 C:\Users\iewtpt\Documents\Visual Studio 2013\Projects\Final Project\FInal Project\FInal Project\obj\Debug\FInal_Project.frmSummary.resources
 C:\Users\iewtpt\Documents\Visual Studio 2013\Projects\Final Project\FInal Project\FInal Project\obj\Debug\FInal_Project.frmSubmitVerify.resources
+C:\Users\iewtpt\Documents\GitHub\CIT148\Final Project\FInal Project\obj\Debug\FInal_Project.frmSummary.resources
+C:\Users\iewtpt\Documents\GitHub\CIT148\Final Project\FInal Project\obj\Debug\FInal_Project.frmSubmitVerify.resources
+C:\Users\iewtpt\Documents\GitHub\CIT148\Final Project\FInal Project\bin\Debug\Quiz.mdb

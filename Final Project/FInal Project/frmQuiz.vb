@@ -1,5 +1,84 @@
 ﻿Public Class frmQuiz
 
+    Private Sub frmQuiz_Load() Handles MyBase.Load
+        'TODO: This line of code loads data into the 'QuizDataSet.Questions' table. You can move, or remove it, as needed.
+        Me.QuestionsTableAdapter.Fill(Me.QuizDataSet.Questions)
+
+        'Query the number of questions in the database 
+        For Each table As DataTable In QuizDataSet.Tables
+            totalQuestions += table.Rows.Count
+        Next
+        timeLeft = (totalQuestions * 20)                    'Set time to 20 secones per question
+        arraySize = (totalQuestions - 1)                    'Set the size of the arrays based on total number of questions
+
+        'ReDim arrays to resize them to the total number of questions
+        ReDim allQuestions(arraySize)
+        ReDim gradedAnswers(arraySize)
+        ReDim answerChecked(arraySize)
+        ReDim questionsAnswered(arraySize)
+        ReDim rad1Check(arraySize)
+        ReDim rad2Check(arraySize)
+        ReDim rad3Check(arraySize)
+        ReDim rad4Check(arraySize)
+        
+
+
+        querySelect = "q"                                   'Set variable to "q" to query for questions
+        position = 1                                        'Set positipn to 1 for first question
+        'Query for all questions in the tables for use in the summary
+        For i As Integer = 0 To arraySize
+            allQuestions(i) = queryQuiz(querySelect)
+            position += 1
+        Next
+
+        position = 1
+        TextBox1.Text = arraySize.ToString
+        For i As Integer = 0 To arraySize
+
+            'Set all answers to not graded
+            gradedAnswers(i) = "N/A"
+
+            'Set radio button checked status for all questions to false
+            rad1Check(i) = False
+            rad2Check(i) = False
+            rad3Check(i) = False
+            rad4Check(i) = False
+
+            'Set all answers checked and questions answered to false because no questions have been answered yet
+            answerChecked(i) = False
+            questionsAnswered(i) = 0
+        Next
+
+        btnPrevious.Enabled = False 'Set the back button to disabled because this is the first question
+        Timer1.Interval = 1000      'Set the time interval of the countdown timer to 1000 milliseconds.
+        Timer1.Enabled = True       'Enable the countdown timer to start counting down when the quiz begns.
+        Timer2.Interval = 500       'Set the blink timer to 500 milliseconds (1/2 second) so the countdown timer will blink on and off every second.
+        Timer2.Enabled = False      'Disable timer 2, this timer will be enabled in timer 1 when the countdown reaches 60 seconds.
+
+        'Sets the title based on the first question 
+        lblTitle.Text = ("Question " & position & " of " & totalQuestions & ":")
+
+        'Sets the question text based on the first question        
+        querySelect = "q"
+        lblQuestion.Text = queryQuiz(querySelect)
+
+        'Sets the radio button answers text based on the first question 
+        querySelect = "1"
+        radAns1.Text = queryQuiz(querySelect)
+        querySelect = "2"
+        radAns2.Text = queryQuiz(querySelect)
+        querySelect = "3"
+        radAns3.Text = queryQuiz(querySelect)
+        querySelect = "4"
+        radAns4.Text = queryQuiz(querySelect)
+
+        'Sets the correct answer based on the first question
+        querySelect = "key"
+        correctAnswer = queryQuiz(querySelect)
+        btnNext.Focus()
+
+    End Sub
+
     Private Sub btnNext_Click() Handles btnNext.Click
 
 
@@ -32,23 +111,23 @@
         'Set title text based on question number (position)
         lblTitle.Text = ("Question " & position & " of " & totalQuestions & ":")
 
-        'Set question text based on question number (position)
-        lblQuestion.Text = Question(qNum)
+        'Sets the question text based on the first question        
+        querySelect = "q"
+        lblQuestion.Text = queryQuiz(querySelect)
 
-        'Set radio button answer text based on question number (position)
-        radAns1.Text = Answer1(qNum)
-        radAns2.Text = Answer2(qNum)
-        radAns3.Text = Answer3(qNum)
-        radAns4.Text = Answer4(qNum)
+        'Sets the radio button answers text based on the first question 
+        querySelect = "1"
+        radAns1.Text = queryQuiz(querySelect)
+        querySelect = "2"
+        radAns2.Text = queryQuiz(querySelect)
+        querySelect = "3"
+        radAns3.Text = queryQuiz(querySelect)
+        querySelect = "4"
+        radAns4.Text = queryQuiz(querySelect)
 
-        'Set the correct answer to the correct answer based on question number (position)
-        correctAnswer = AnswerKey(qNum)
-
-        'Set all radio buttons if the question has been previously answered
-        radAns1.Checked = rad1Check(position - 1)
-        radAns2.Checked = rad2Check(position - 1)
-        radAns3.Checked = rad3Check(position - 1)
-        radAns4.Checked = rad4Check(position - 1)
+        'Sets the correct answer based on the first question
+        querySelect = "key"
+        correctAnswer = queryQuiz(querySelect)
 
     End Sub
 
@@ -89,60 +168,26 @@
         'Set title text based on question number (position)
         lblTitle.Text = ("Question " & position & " of " & totalQuestions & ":")
 
-        'Set question text based on question number (position)
-        lblQuestion.Text = Question(qNum)
-
-        'Set radio button answer text based on question number (position)
-        radAns1.Text = Answer1(qNum)
-        radAns2.Text = Answer2(qNum)
-        radAns3.Text = Answer3(qNum)
-        radAns4.Text = Answer4(qNum)
-
-        'Set the correct answer to the correct answer based on question number (position)
-        correctAnswer = AnswerKey(qNum)
-
-    End Sub
-    Private Sub frmQuiz_Load() Handles MyBase.Load
-       
-        For i As Integer = 0 To totalQuestions
-
-            'Set all answers to not graded
-            gradedAnswers(i) = "N/A"
-
-            'Set radio button checked status for all questions to false
-            rad1Check(i) = False
-            rad2Check(i) = False
-            rad3Check(i) = False
-            rad4Check(i) = False
-
-            'Set all answers checked and questions answered to false because no questions have been answered yet
-            answerChecked(i) = False
-            questionsAnswered(i) = 0
-        Next
-
-        btnPrevious.Enabled = False 'Set the back button to disabled because this is the first question
-        Timer1.Interval = 1000      'Set the time interval of the countdown timer to 1000 milliseconds.
-        Timer1.Enabled = True       'Enable the countdown timer to start counting down when the quiz begns.
-        Timer2.Interval = 500       'Set the blink timer to 500 milliseconds (1/2 second) so the countdown timer will blink on and off every second.
-        Timer2.Enabled = False      'Disable timer 2, this timer will be enabled in timer 1 when the countdown reaches 60 seconds.
-
-        'Sets the title based on the first question 
-        lblTitle.Text = ("Question " & position & " of " & totalQuestions & ":")
-
-        'Sets the question text based on the first question 
-        lblQuestion.Text = Question(qNum)
+        'Sets the question text based on the first question        
+        querySelect = "q"
+        lblQuestion.Text = queryQuiz(querySelect)
 
         'Sets the radio button answers text based on the first question 
-        radAns1.Text = Answer1(qNum)
-        radAns2.Text = Answer2(qNum)
-        radAns3.Text = Answer3(qNum)
-        radAns4.Text = Answer4(qNum)
+        querySelect = "1"
+        radAns1.Text = queryQuiz(querySelect)
+        querySelect = "2"
+        radAns2.Text = queryQuiz(querySelect)
+        querySelect = "3"
+        radAns3.Text = queryQuiz(querySelect)
+        querySelect = "4"
+        radAns4.Text = queryQuiz(querySelect)
 
         'Sets the correct answer based on the first question
-        correctAnswer = AnswerKey(qNum)
-        btnNext.Focus()
+        querySelect = "key"
+        correctAnswer = queryQuiz(querySelect)
 
     End Sub
+
 
     Private Sub btnSubmit_Click() Handles btnSubmit.Click
         bNum = 0                                    'Set the counter to 0
@@ -246,7 +291,7 @@
         End If
 
         'Give focus to the next button
-       btnNext.Focus()
+        btnNext.Focus()
     End Sub
 
     Private Sub radAns4_CheckedChanged() Handles radAns4.CheckedChanged
@@ -269,7 +314,7 @@
         End If
 
         'Give focus to the next button
-       btnNext.Focus()
+        btnNext.Focus()
     End Sub
 
     Private Sub btnExit_Click() Handles btnExit.Click
@@ -384,7 +429,57 @@
             'If no answer has been checked show a message box to indicate the user must select an answer before grading.
             MessageBox.Show("You must select an answer before you can check the answer.", "Error")
         End If
-
     End Sub
+
+
+    Function queryQuiz(querySelect As String) As String
+
+        Dim result As String = ""
+
+        If querySelect = "q" Then
+            Dim query = From q In QuizDataSet.Questions
+                              Where q.ID = position
+                              Select q.question
+
+            result = query.First
+
+        ElseIf querySelect = "1" Then
+            Dim query = From q In QuizDataSet.Questions
+                              Where q.ID = position
+                              Select q.firstChoice
+
+            result = query.First
+
+        ElseIf querySelect = "2" Then
+            Dim query = From q In QuizDataSet.Questions
+                              Where q.ID = position
+                              Select q.secondChoice
+
+            result = query.First
+
+        ElseIf querySelect = "3" Then
+            Dim query = From q In QuizDataSet.Questions
+                              Where q.ID = position
+                              Select q.thirdChoice
+
+            result = query.First
+
+        ElseIf querySelect = "4" Then
+            Dim query = From q In QuizDataSet.Questions
+                              Where q.ID = position
+                              Select q.fourthChoice
+
+            result = query.First
+
+        ElseIf querySelect = "key" Then
+            Dim query = From q In QuizDataSet.Questions
+                              Where q.ID = position
+                              Select q.Answer
+
+            result = query.First
+        End If
+
+        Return result.ToString
+    End Function
 
 End Class

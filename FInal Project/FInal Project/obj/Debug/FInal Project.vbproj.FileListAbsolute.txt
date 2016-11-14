@@ -79,3 +79,9 @@ C:\Users\Ace\Documents\GitHub\CIT148\FInal Project\FInal Project\obj\Debug\FInal
 C:\Users\Ace\Documents\GitHub\CIT148\FInal Project\FInal Project\obj\Debug\FInal_Project.Resources.resources
 C:\Users\Ace\Documents\GitHub\CIT148\FInal Project\FInal Project\obj\Debug\FInal_Project.frmSubmitVerify.resources
 C:\Users\Ace\Documents\GitHub\CIT148\FInal Project\FInal Project\obj\Debug\FInal Project.vbproj.GenerateResource.Cache
+C:\Users\Ace\Documents\GitHub\CIT148\FInal Project\FInal Project\obj\Debug\FInal_Project.frmLogin.resources
+C:\Users\Ace\Documents\GitHub\CIT148\FInal Project\FInal Project\obj\Debug\FInal_Project.frmForgotPassword.resources
+C:\Users\Ace\Desktop\CIT148\CIT148\FInal Project\FInal Project\bin\Debug\FInal Project.exe.config
+C:\Users\Ace\Desktop\CIT148\CIT148\FInal Project\FInal Project\obj\Debug\FInal Project.exe
+C:\Users\Ace\Desktop\CIT148\CIT148\FInal Project\FInal Project\obj\Debug\FInal Project.xml
+C:\Users\Ace\Desktop\CIT148\CIT148\FInal Project\FInal Project\obj\Debug\FInal Project.pdb

@@ -24,4 +24,10 @@
     Private Sub lblInstructionsText_Click(sender As Object, e As EventArgs) Handles lblInstructionsText.Click
 
     End Sub
+
+    Private Sub btnLogin_Click(sender As Object, e As EventArgs) Handles btnLogin.Click
+        'hides current form and shows login form
+        Me.Hide()
+        frmLogin.Show()
+    End Sub
 End Class

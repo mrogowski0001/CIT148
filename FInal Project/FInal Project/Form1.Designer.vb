@@ -27,6 +27,7 @@ Partial Class frmWelcome
         Me.lblInstructionsText = New System.Windows.Forms.Label()
         Me.lblTitle2 = New System.Windows.Forms.Label()
         Me.lblTitle = New System.Windows.Forms.Label()
+        Me.btnLogin = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'btnBegin
@@ -52,7 +53,7 @@ Partial Class frmWelcome
         '
         Me.lblInstructionsText.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblInstructionsText.ForeColor = System.Drawing.Color.Red
-        Me.lblInstructionsText.Location = New System.Drawing.Point(15, 130)
+        Me.lblInstructionsText.Location = New System.Drawing.Point(12, 130)
         Me.lblInstructionsText.Name = "lblInstructionsText"
         Me.lblInstructionsText.Size = New System.Drawing.Size(410, 230)
         Me.lblInstructionsText.TabIndex = 2
@@ -80,12 +81,25 @@ Partial Class frmWelcome
         Me.lblTitle.Text = "Welcome!"
         Me.lblTitle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
+        'btnLogin
+        '
+        Me.btnLogin.BackColor = System.Drawing.Color.DarkRed
+        Me.btnLogin.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnLogin.ForeColor = System.Drawing.Color.Yellow
+        Me.btnLogin.Location = New System.Drawing.Point(12, 380)
+        Me.btnLogin.Name = "btnLogin"
+        Me.btnLogin.Size = New System.Drawing.Size(75, 16)
+        Me.btnLogin.TabIndex = 5
+        Me.btnLogin.Text = "Log In"
+        Me.btnLogin.UseVisualStyleBackColor = False
+        '
         'frmWelcome
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.ClientSize = New System.Drawing.Size(437, 408)
+        Me.Controls.Add(Me.btnLogin)
         Me.Controls.Add(Me.lblTitle)
         Me.Controls.Add(Me.lblTitle2)
         Me.Controls.Add(Me.lblInstructionsText)
@@ -102,5 +116,6 @@ Partial Class frmWelcome
     Friend WithEvents lblInstructionsText As System.Windows.Forms.Label
     Friend WithEvents lblTitle2 As System.Windows.Forms.Label
     Friend WithEvents lblTitle As System.Windows.Forms.Label
+    Friend WithEvents btnLogin As System.Windows.Forms.Button
 
 End Class

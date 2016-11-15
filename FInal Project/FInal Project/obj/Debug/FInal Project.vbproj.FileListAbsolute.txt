@@ -85,3 +85,21 @@ C:\Users\Ace\Desktop\CIT148\CIT148\FInal Project\FInal Project\bin\Debug\FInal P
 C:\Users\Ace\Desktop\CIT148\CIT148\FInal Project\FInal Project\obj\Debug\FInal Project.exe
 C:\Users\Ace\Desktop\CIT148\CIT148\FInal Project\FInal Project\obj\Debug\FInal Project.xml
 C:\Users\Ace\Desktop\CIT148\CIT148\FInal Project\FInal Project\obj\Debug\FInal Project.pdb
+C:\Users\Acega\Source\Repos\CIT148\FInal Project\FInal Project\bin\Debug\FInal Project.exe.config
+C:\Users\Acega\Source\Repos\CIT148\FInal Project\FInal Project\obj\Debug\FInal Project.exe
+C:\Users\Acega\Source\Repos\CIT148\FInal Project\FInal Project\obj\Debug\FInal Project.xml
+C:\Users\Acega\Source\Repos\CIT148\FInal Project\FInal Project\obj\Debug\FInal Project.pdb
+C:\Users\Acega\Source\Repos\CIT148\FInal Project\FInal Project\bin\Debug\FInal Project.exe
+C:\Users\Acega\Source\Repos\CIT148\FInal Project\FInal Project\bin\Debug\FInal Project.pdb
+C:\Users\Acega\Source\Repos\CIT148\FInal Project\FInal Project\bin\Debug\FInal Project.xml
+C:\Users\Acega\Source\Repos\CIT148\FInal Project\FInal Project\obj\Debug\FInal Project.vbprojResolveAssemblyReference.cache
+C:\Users\Acega\Source\Repos\CIT148\FInal Project\FInal Project\obj\Debug\FInal_Project.frmWelcome.resources
+C:\Users\Acega\Source\Repos\CIT148\FInal Project\FInal Project\obj\Debug\FInal_Project.frmQuiz.resources
+C:\Users\Acega\Source\Repos\CIT148\FInal Project\FInal Project\obj\Debug\FInal_Project.frmExit.resources
+C:\Users\Acega\Source\Repos\CIT148\FInal Project\FInal Project\obj\Debug\FInal_Project.frmSummary.resources
+C:\Users\Acega\Source\Repos\CIT148\FInal Project\FInal Project\obj\Debug\FInal_Project.frmLogin.resources
+C:\Users\Acega\Source\Repos\CIT148\FInal Project\FInal Project\obj\Debug\FInal_Project.frmForgotPassword.resources
+C:\Users\Acega\Source\Repos\CIT148\FInal Project\FInal Project\obj\Debug\FInal_Project.Resources.resources
+C:\Users\Acega\Source\Repos\CIT148\FInal Project\FInal Project\obj\Debug\FInal_Project.frmSubmitVerify.resources
+C:\Users\Acega\Source\Repos\CIT148\FInal Project\FInal Project\obj\Debug\FInal Project.vbproj.GenerateResource.Cache
+C:\Users\Acega\Source\Repos\CIT148\FInal Project\FInal Project\obj\Debug\FInal_Project.frmModify.resources

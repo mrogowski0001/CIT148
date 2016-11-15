@@ -1,4 +1,4 @@
-﻿Module PublicVar
+﻿Module PublicVariables
     'Declare arrays and fill arrays with questions and answers
     Public questions() As String = IO.File.ReadAllLines("Questions.txt")
     Public answers() As String = IO.File.ReadAllLines("Answers.txt")

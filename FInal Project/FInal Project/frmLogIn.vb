@@ -14,7 +14,7 @@
                 MsgBox("Welcome", MsgBoxStyle.OkOnly)
                 'hides current form and shows modify form
                 Me.Hide()
-                'frmModify.Show()
+                frmModify.Show()
             Else
                 MsgBox("Invalid Password", MsgBoxStyle.OkOnly)
             End If

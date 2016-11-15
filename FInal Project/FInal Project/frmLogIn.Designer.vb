@@ -29,6 +29,8 @@ Partial Class frmLogin
         Me.btnCancel = New System.Windows.Forms.Button()
         Me.txtPassword = New System.Windows.Forms.MaskedTextBox()
         Me.btnForgotPassword = New System.Windows.Forms.Button()
+        Me.lblChangePass = New System.Windows.Forms.Label()
+        Me.chkCurrentPass = New System.Windows.Forms.CheckBox()
         Me.SuspendLayout()
         '
         'lblUserName
@@ -92,11 +94,31 @@ Partial Class frmLogin
         Me.btnForgotPassword.Text = "Forgot Password"
         Me.btnForgotPassword.UseVisualStyleBackColor = True
         '
+        'lblChangePass
+        '
+        Me.lblChangePass.AutoSize = True
+        Me.lblChangePass.Location = New System.Drawing.Point(126, 179)
+        Me.lblChangePass.Name = "lblChangePass"
+        Me.lblChangePass.Size = New System.Drawing.Size(139, 13)
+        Me.lblChangePass.TabIndex = 8
+        Me.lblChangePass.Text = "Change Current Password?:"
+        '
+        'chkCurrentPass
+        '
+        Me.chkCurrentPass.AutoSize = True
+        Me.chkCurrentPass.Location = New System.Drawing.Point(336, 179)
+        Me.chkCurrentPass.Name = "chkCurrentPass"
+        Me.chkCurrentPass.Size = New System.Drawing.Size(15, 14)
+        Me.chkCurrentPass.TabIndex = 9
+        Me.chkCurrentPass.UseVisualStyleBackColor = True
+        '
         'frmLogin
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(542, 288)
+        Me.Controls.Add(Me.chkCurrentPass)
+        Me.Controls.Add(Me.lblChangePass)
         Me.Controls.Add(Me.btnForgotPassword)
         Me.Controls.Add(Me.txtPassword)
         Me.Controls.Add(Me.btnCancel)
@@ -117,4 +139,6 @@ Partial Class frmLogin
     Friend WithEvents btnCancel As System.Windows.Forms.Button
     Friend WithEvents txtPassword As System.Windows.Forms.MaskedTextBox
     Friend WithEvents btnForgotPassword As System.Windows.Forms.Button
+    Friend WithEvents lblChangePass As System.Windows.Forms.Label
+    Friend WithEvents chkCurrentPass As System.Windows.Forms.CheckBox
 End Class

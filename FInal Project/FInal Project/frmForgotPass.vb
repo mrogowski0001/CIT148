@@ -25,9 +25,9 @@
         End If
 
         'if everything passes proceed to next form
-        If user And q2 = True Then
-            Me.Hide()
-            'frmChangePass.Show()
+        If user And q2 And q1 = True Then
+            frmChangePass.Show()
+            Me.Close()
 
         ElseIf user = False Then
             MsgBox("Wrong UserName", MsgBoxStyle.OkOnly)

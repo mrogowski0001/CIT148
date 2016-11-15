@@ -31,6 +31,10 @@ Partial Class frmForgotPassword
         Me.btnSubmit = New System.Windows.Forms.Button()
         Me.btnCancel = New System.Windows.Forms.Button()
         Me.btnForgotUserName = New System.Windows.Forms.Button()
+        Me.lblQuestion1 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.lblQuestionAnsr1 = New System.Windows.Forms.Label()
+        Me.lblQuestionAnsr2 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'lblUserName
@@ -56,37 +60,39 @@ Partial Class frmForgotPassword
         Me.cbxSecurityq1.Location = New System.Drawing.Point(58, 98)
         Me.cbxSecurityq1.Name = "cbxSecurityq1"
         Me.cbxSecurityq1.Size = New System.Drawing.Size(418, 21)
-        Me.cbxSecurityq1.TabIndex = 4
+        Me.cbxSecurityq1.TabIndex = 2
+        Me.cbxSecurityq1.Text = "Where were you born?"
         '
         'cbxSecurityq2
         '
         Me.cbxSecurityq2.FormattingEnabled = True
-        Me.cbxSecurityq2.Items.AddRange(New Object() {"What was you first pets name?", "What is your favorit drink?"})
+        Me.cbxSecurityq2.Items.AddRange(New Object() {"What is your favorit drink?", "What was the name of your first pet?"})
         Me.cbxSecurityq2.Location = New System.Drawing.Point(58, 220)
         Me.cbxSecurityq2.Name = "cbxSecurityq2"
         Me.cbxSecurityq2.Size = New System.Drawing.Size(418, 21)
-        Me.cbxSecurityq2.TabIndex = 5
+        Me.cbxSecurityq2.TabIndex = 4
+        Me.cbxSecurityq2.Text = "What was the name of your first pet?"
         '
         'txtsecurityq1
         '
-        Me.txtsecurityq1.Location = New System.Drawing.Point(58, 125)
+        Me.txtsecurityq1.Location = New System.Drawing.Point(58, 147)
         Me.txtsecurityq1.Name = "txtsecurityq1"
         Me.txtsecurityq1.Size = New System.Drawing.Size(418, 20)
-        Me.txtsecurityq1.TabIndex = 6
+        Me.txtsecurityq1.TabIndex = 3
         '
         'txtsecurityq2
         '
-        Me.txtsecurityq2.Location = New System.Drawing.Point(58, 247)
+        Me.txtsecurityq2.Location = New System.Drawing.Point(58, 268)
         Me.txtsecurityq2.Name = "txtsecurityq2"
         Me.txtsecurityq2.Size = New System.Drawing.Size(418, 20)
-        Me.txtsecurityq2.TabIndex = 7
+        Me.txtsecurityq2.TabIndex = 5
         '
         'btnSubmit
         '
         Me.btnSubmit.Location = New System.Drawing.Point(58, 344)
         Me.btnSubmit.Name = "btnSubmit"
         Me.btnSubmit.Size = New System.Drawing.Size(75, 23)
-        Me.btnSubmit.TabIndex = 8
+        Me.btnSubmit.TabIndex = 6
         Me.btnSubmit.Text = "Submit"
         Me.btnSubmit.UseVisualStyleBackColor = True
         '
@@ -95,7 +101,7 @@ Partial Class frmForgotPassword
         Me.btnCancel.Location = New System.Drawing.Point(401, 344)
         Me.btnCancel.Name = "btnCancel"
         Me.btnCancel.Size = New System.Drawing.Size(75, 23)
-        Me.btnCancel.TabIndex = 9
+        Me.btnCancel.TabIndex = 8
         Me.btnCancel.Text = "Cancel"
         Me.btnCancel.UseVisualStyleBackColor = True
         '
@@ -104,9 +110,45 @@ Partial Class frmForgotPassword
         Me.btnForgotUserName.Location = New System.Drawing.Point(58, 389)
         Me.btnForgotUserName.Name = "btnForgotUserName"
         Me.btnForgotUserName.Size = New System.Drawing.Size(418, 23)
-        Me.btnForgotUserName.TabIndex = 10
+        Me.btnForgotUserName.TabIndex = 7
         Me.btnForgotUserName.Text = "Forgot User Name"
         Me.btnForgotUserName.UseVisualStyleBackColor = True
+        '
+        'lblQuestion1
+        '
+        Me.lblQuestion1.AutoSize = True
+        Me.lblQuestion1.Location = New System.Drawing.Point(55, 82)
+        Me.lblQuestion1.Name = "lblQuestion1"
+        Me.lblQuestion1.Size = New System.Drawing.Size(168, 13)
+        Me.lblQuestion1.TabIndex = 9
+        Me.lblQuestion1.Text = "Please Select A Security Question"
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Location = New System.Drawing.Point(55, 204)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(168, 13)
+        Me.Label2.TabIndex = 10
+        Me.Label2.Text = "Please Select A Security Question"
+        '
+        'lblQuestionAnsr1
+        '
+        Me.lblQuestionAnsr1.AutoSize = True
+        Me.lblQuestionAnsr1.Location = New System.Drawing.Point(55, 131)
+        Me.lblQuestionAnsr1.Name = "lblQuestionAnsr1"
+        Me.lblQuestionAnsr1.Size = New System.Drawing.Size(163, 13)
+        Me.lblQuestionAnsr1.TabIndex = 11
+        Me.lblQuestionAnsr1.Text = "Please Answer Security Question"
+        '
+        'lblQuestionAnsr2
+        '
+        Me.lblQuestionAnsr2.AutoSize = True
+        Me.lblQuestionAnsr2.Location = New System.Drawing.Point(55, 252)
+        Me.lblQuestionAnsr2.Name = "lblQuestionAnsr2"
+        Me.lblQuestionAnsr2.Size = New System.Drawing.Size(163, 13)
+        Me.lblQuestionAnsr2.TabIndex = 12
+        Me.lblQuestionAnsr2.Text = "Please Answer Security Question"
         '
         'frmForgotPassword
         '
@@ -114,6 +156,10 @@ Partial Class frmForgotPassword
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoScroll = True
         Me.ClientSize = New System.Drawing.Size(563, 422)
+        Me.Controls.Add(Me.lblQuestionAnsr2)
+        Me.Controls.Add(Me.lblQuestionAnsr1)
+        Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.lblQuestion1)
         Me.Controls.Add(Me.btnForgotUserName)
         Me.Controls.Add(Me.btnCancel)
         Me.Controls.Add(Me.btnSubmit)
@@ -138,4 +184,8 @@ Partial Class frmForgotPassword
     Friend WithEvents btnSubmit As System.Windows.Forms.Button
     Friend WithEvents btnCancel As System.Windows.Forms.Button
     Friend WithEvents btnForgotUserName As System.Windows.Forms.Button
+    Friend WithEvents lblQuestion1 As System.Windows.Forms.Label
+    Friend WithEvents Label2 As System.Windows.Forms.Label
+    Friend WithEvents lblQuestionAnsr1 As System.Windows.Forms.Label
+    Friend WithEvents lblQuestionAnsr2 As System.Windows.Forms.Label
 End Class

@@ -1,90 +1,3 @@
-C:\Users\iewtpt\Documents\Visual Studio 2013\Projects\Final Project\FInal Project\FInal Project\bin\Debug\FInal Project.exe.config
-C:\Users\iewtpt\Documents\Visual Studio 2013\Projects\Final Project\FInal Project\FInal Project\bin\Debug\FInal Project.exe
-C:\Users\iewtpt\Documents\Visual Studio 2013\Projects\Final Project\FInal Project\FInal Project\bin\Debug\FInal Project.pdb
-C:\Users\iewtpt\Documents\Visual Studio 2013\Projects\Final Project\FInal Project\FInal Project\bin\Debug\FInal Project.xml
-C:\Users\iewtpt\Documents\Visual Studio 2013\Projects\Final Project\FInal Project\FInal Project\obj\Debug\FInal_Project.frmQuiz.resources
-C:\Users\iewtpt\Documents\Visual Studio 2013\Projects\Final Project\FInal Project\FInal Project\obj\Debug\FInal_Project.Resources.resources
-C:\Users\iewtpt\Documents\Visual Studio 2013\Projects\Final Project\FInal Project\FInal Project\obj\Debug\FInal Project.vbproj.GenerateResource.Cache
-C:\Users\iewtpt\Documents\Visual Studio 2013\Projects\Final Project\FInal Project\FInal Project\obj\Debug\FInal Project.exe
-C:\Users\iewtpt\Documents\Visual Studio 2013\Projects\Final Project\FInal Project\FInal Project\obj\Debug\FInal Project.xml
-C:\Users\iewtpt\Documents\Visual Studio 2013\Projects\Final Project\FInal Project\FInal Project\obj\Debug\FInal Project.pdb
-C:\Users\iewtpt\Documents\GitHub\CIT148\FInal Project\FInal Project\bin\Debug\FInal Project.exe.config
-C:\Users\iewtpt\Documents\GitHub\CIT148\FInal Project\FInal Project\obj\Debug\FInal Project.exe
-C:\Users\iewtpt\Documents\GitHub\CIT148\FInal Project\FInal Project\obj\Debug\FInal Project.xml
-C:\Users\iewtpt\Documents\GitHub\CIT148\FInal Project\FInal Project\obj\Debug\FInal Project.pdb
-C:\Users\iewtpt\Documents\GitHub\CIT148\FInal Project\FInal Project\bin\Debug\FInal Project.exe
-C:\Users\iewtpt\Documents\GitHub\CIT148\FInal Project\FInal Project\bin\Debug\FInal Project.pdb
-C:\Users\iewtpt\Documents\GitHub\CIT148\FInal Project\FInal Project\bin\Debug\FInal Project.xml
-C:\Users\iewtpt\Documents\GitHub\CIT148\FInal Project\FInal Project\obj\Debug\FInal_Project.frmQuiz.resources
-C:\Users\iewtpt\Documents\GitHub\CIT148\FInal Project\FInal Project\obj\Debug\FInal_Project.Resources.resources
-C:\Users\iewtpt\Documents\GitHub\CIT148\FInal Project\FInal Project\obj\Debug\FInal Project.vbproj.GenerateResource.Cache
-C:\Users\iewtpt\Documents\GitHub\CIT148\FInal Project\FInal Project\obj\Debug\FInal_Project.frmWelcome.resources
-C:\Users\iewtpt\Documents\GitHub\CIT148\FInal Project\FInal Project\obj\Debug\FInal_Project.frmExit.resources
-C:\Users\iewtpt\Documents\GitHub\CIT148\FInal Project\FInal Project\obj\Debug\FInal Project.vbprojResolveAssemblyReference.cache
-C:\Users\iewtpt\Documents\Visual Studio 2013\Projects\Final Project\FInal Project\FInal Project\obj\Debug\FInal Project.vbprojResolveAssemblyReference.cache
-C:\Users\iewtpt\Documents\Visual Studio 2013\Projects\Final Project\FInal Project\FInal Project\obj\Debug\FInal_Project.frmWelcome.resources
-C:\Users\iewtpt\Documents\Visual Studio 2013\Projects\Final Project\FInal Project\FInal Project\obj\Debug\FInal_Project.frmExit.resources
-C:\Users\iewtpt\Documents\Visual Studio 2013\Projects\Final Project\FInal Project\FInal Project\obj\Debug\FInal_Project.frmSummary.resources
-C:\Users\iewtpt\Documents\Visual Studio 2013\Projects\Final Project\FInal Project\FInal Project\obj\Debug\FInal_Project.frmSubmitVerify.resources
-F:\visual basic\CIT148-master\CIT148-master\FInal Project\FInal Project\bin\Debug\FInal Project.exe.config
-F:\visual basic\CIT148-master\CIT148-master\FInal Project\FInal Project\obj\Debug\FInal Project.exe
-F:\visual basic\CIT148-master\CIT148-master\FInal Project\FInal Project\obj\Debug\FInal Project.xml
-F:\visual basic\CIT148-master\CIT148-master\FInal Project\FInal Project\obj\Debug\FInal Project.pdb
-F:\visual basic\CIT148-master\CIT148-master\FInal Project\FInal Project\bin\Debug\FInal Project.exe
-F:\visual basic\CIT148-master\CIT148-master\FInal Project\FInal Project\bin\Debug\FInal Project.pdb
-F:\visual basic\CIT148-master\CIT148-master\FInal Project\FInal Project\bin\Debug\FInal Project.xml
-F:\visual basic\CIT148-master\CIT148-master\FInal Project\FInal Project\obj\Debug\FInal Project.vbprojResolveAssemblyReference.cache
-F:\visual basic\CIT148-master\CIT148-master\FInal Project\FInal Project\obj\Debug\FInal_Project.frmWelcome.resources
-F:\visual basic\CIT148-master\CIT148-master\FInal Project\FInal Project\obj\Debug\FInal_Project.frmQuiz.resources
-F:\visual basic\CIT148-master\CIT148-master\FInal Project\FInal Project\obj\Debug\FInal_Project.frmExit.resources
-F:\visual basic\CIT148-master\CIT148-master\FInal Project\FInal Project\obj\Debug\FInal_Project.frmSummary.resources
-F:\visual basic\CIT148-master\CIT148-master\FInal Project\FInal Project\obj\Debug\FInal_Project.Resources.resources
-F:\visual basic\CIT148-master\CIT148-master\FInal Project\FInal Project\obj\Debug\FInal_Project.frmSubmitVerify.resources
-F:\visual basic\CIT148-master\CIT148-master\FInal Project\FInal Project\obj\Debug\FInal Project.vbproj.GenerateResource.Cache
-I:\visual basic\CIT148-master\CIT148-master\FInal Project\FInal Project\bin\Debug\FInal Project.exe.config
-I:\visual basic\CIT148-master\CIT148-master\FInal Project\FInal Project\obj\Debug\FInal Project.exe
-I:\visual basic\CIT148-master\CIT148-master\FInal Project\FInal Project\obj\Debug\FInal Project.xml
-I:\visual basic\CIT148-master\CIT148-master\FInal Project\FInal Project\obj\Debug\FInal Project.pdb
-I:\visual basic\CIT148-master\CIT148-master\FInal Project\FInal Project\bin\Debug\FInal Project.exe
-I:\visual basic\CIT148-master\CIT148-master\FInal Project\FInal Project\bin\Debug\FInal Project.pdb
-I:\visual basic\CIT148-master\CIT148-master\FInal Project\FInal Project\bin\Debug\FInal Project.xml
-I:\visual basic\CIT148-master\CIT148-master\FInal Project\FInal Project\obj\Debug\FInal Project.vbprojResolveAssemblyReference.cache
-I:\visual basic\CIT148-master\CIT148-master\FInal Project\FInal Project\obj\Debug\FInal_Project.frmWelcome.resources
-I:\visual basic\CIT148-master\CIT148-master\FInal Project\FInal Project\obj\Debug\FInal_Project.frmQuiz.resources
-I:\visual basic\CIT148-master\CIT148-master\FInal Project\FInal Project\obj\Debug\FInal_Project.frmExit.resources
-I:\visual basic\CIT148-master\CIT148-master\FInal Project\FInal Project\obj\Debug\FInal_Project.frmSummary.resources
-I:\visual basic\CIT148-master\CIT148-master\FInal Project\FInal Project\obj\Debug\FInal_Project.Resources.resources
-I:\visual basic\CIT148-master\CIT148-master\FInal Project\FInal Project\obj\Debug\FInal_Project.frmSubmitVerify.resources
-I:\visual basic\CIT148-master\CIT148-master\FInal Project\FInal Project\obj\Debug\FInal Project.vbproj.GenerateResource.Cache
-C:\Users\Ace\Desktop\visual basic\CIT148-master\CIT148-master\FInal Project\FInal Project\bin\Debug\FInal Project.exe.config
-C:\Users\Ace\Desktop\visual basic\CIT148-master\CIT148-master\FInal Project\FInal Project\obj\Debug\FInal Project.exe
-C:\Users\Ace\Desktop\visual basic\CIT148-master\CIT148-master\FInal Project\FInal Project\obj\Debug\FInal Project.xml
-C:\Users\Ace\Desktop\visual basic\CIT148-master\CIT148-master\FInal Project\FInal Project\obj\Debug\FInal Project.pdb
-C:\Users\Ace\Source\Repos\CIT148\FInal Project\FInal Project\bin\Debug\FInal Project.exe.config
-C:\Users\Ace\Source\Repos\CIT148\FInal Project\FInal Project\obj\Debug\FInal Project.exe
-C:\Users\Ace\Source\Repos\CIT148\FInal Project\FInal Project\obj\Debug\FInal Project.xml
-C:\Users\Ace\Source\Repos\CIT148\FInal Project\FInal Project\obj\Debug\FInal Project.pdb
-C:\Users\Ace\Documents\GitHub\CIT148\FInal Project\FInal Project\bin\Debug\FInal Project.exe.config
-C:\Users\Ace\Documents\GitHub\CIT148\FInal Project\FInal Project\obj\Debug\FInal Project.exe
-C:\Users\Ace\Documents\GitHub\CIT148\FInal Project\FInal Project\obj\Debug\FInal Project.xml
-C:\Users\Ace\Documents\GitHub\CIT148\FInal Project\FInal Project\obj\Debug\FInal Project.pdb
-C:\Users\Ace\Documents\GitHub\CIT148\FInal Project\FInal Project\bin\Debug\FInal Project.exe
-C:\Users\Ace\Documents\GitHub\CIT148\FInal Project\FInal Project\bin\Debug\FInal Project.pdb
-C:\Users\Ace\Documents\GitHub\CIT148\FInal Project\FInal Project\bin\Debug\FInal Project.xml
-C:\Users\Ace\Documents\GitHub\CIT148\FInal Project\FInal Project\obj\Debug\FInal Project.vbprojResolveAssemblyReference.cache
-C:\Users\Ace\Documents\GitHub\CIT148\FInal Project\FInal Project\obj\Debug\FInal_Project.frmWelcome.resources
-C:\Users\Ace\Documents\GitHub\CIT148\FInal Project\FInal Project\obj\Debug\FInal_Project.frmQuiz.resources
-C:\Users\Ace\Documents\GitHub\CIT148\FInal Project\FInal Project\obj\Debug\FInal_Project.frmExit.resources
-C:\Users\Ace\Documents\GitHub\CIT148\FInal Project\FInal Project\obj\Debug\FInal_Project.frmSummary.resources
-C:\Users\Ace\Documents\GitHub\CIT148\FInal Project\FInal Project\obj\Debug\FInal_Project.Resources.resources
-C:\Users\Ace\Documents\GitHub\CIT148\FInal Project\FInal Project\obj\Debug\FInal_Project.frmSubmitVerify.resources
-C:\Users\Ace\Documents\GitHub\CIT148\FInal Project\FInal Project\obj\Debug\FInal Project.vbproj.GenerateResource.Cache
-C:\Users\Ace\Documents\GitHub\CIT148\FInal Project\FInal Project\obj\Debug\FInal_Project.frmLogin.resources
-C:\Users\Ace\Documents\GitHub\CIT148\FInal Project\FInal Project\obj\Debug\FInal_Project.frmForgotPassword.resources
-C:\Users\Ace\Desktop\CIT148\CIT148\FInal Project\FInal Project\bin\Debug\FInal Project.exe.config
-C:\Users\Ace\Desktop\CIT148\CIT148\FInal Project\FInal Project\obj\Debug\FInal Project.exe
-C:\Users\Ace\Desktop\CIT148\CIT148\FInal Project\FInal Project\obj\Debug\FInal Project.xml
-C:\Users\Ace\Desktop\CIT148\CIT148\FInal Project\FInal Project\obj\Debug\FInal Project.pdb
 C:\Users\Acega\Source\Repos\CIT148\FInal Project\FInal Project\bin\Debug\FInal Project.exe.config
 C:\Users\Acega\Source\Repos\CIT148\FInal Project\FInal Project\obj\Debug\FInal Project.exe
 C:\Users\Acega\Source\Repos\CIT148\FInal Project\FInal Project\obj\Debug\FInal Project.xml
@@ -98,8 +11,10 @@ C:\Users\Acega\Source\Repos\CIT148\FInal Project\FInal Project\obj\Debug\FInal_P
 C:\Users\Acega\Source\Repos\CIT148\FInal Project\FInal Project\obj\Debug\FInal_Project.frmExit.resources
 C:\Users\Acega\Source\Repos\CIT148\FInal Project\FInal Project\obj\Debug\FInal_Project.frmSummary.resources
 C:\Users\Acega\Source\Repos\CIT148\FInal Project\FInal Project\obj\Debug\FInal_Project.frmLogin.resources
+C:\Users\Acega\Source\Repos\CIT148\FInal Project\FInal Project\obj\Debug\FInal_Project.frmModify.resources
 C:\Users\Acega\Source\Repos\CIT148\FInal Project\FInal Project\obj\Debug\FInal_Project.frmForgotPassword.resources
 C:\Users\Acega\Source\Repos\CIT148\FInal Project\FInal Project\obj\Debug\FInal_Project.Resources.resources
 C:\Users\Acega\Source\Repos\CIT148\FInal Project\FInal Project\obj\Debug\FInal_Project.frmSubmitVerify.resources
 C:\Users\Acega\Source\Repos\CIT148\FInal Project\FInal Project\obj\Debug\FInal Project.vbproj.GenerateResource.Cache
-C:\Users\Acega\Source\Repos\CIT148\FInal Project\FInal Project\obj\Debug\FInal_Project.frmModify.resources
+C:\Users\Acega\Source\Repos\CIT148\FInal Project\FInal Project\obj\Debug\FInal_Project.frmAuthChangePass.resources
+C:\Users\Acega\Source\Repos\CIT148\FInal Project\FInal Project\obj\Debug\FInal_Project.frmChangePass.resources

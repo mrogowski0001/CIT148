@@ -18,3 +18,4 @@ C:\Users\Acega\Source\Repos\CIT148\FInal Project\FInal Project\obj\Debug\FInal_P
 C:\Users\Acega\Source\Repos\CIT148\FInal Project\FInal Project\obj\Debug\FInal Project.vbproj.GenerateResource.Cache
 C:\Users\Acega\Source\Repos\CIT148\FInal Project\FInal Project\obj\Debug\FInal_Project.frmAuthChangePass.resources
 C:\Users\Acega\Source\Repos\CIT148\FInal Project\FInal Project\obj\Debug\FInal_Project.frmChangePass.resources
+C:\Users\Acega\Source\Repos\CIT148\FInal Project\FInal Project\obj\Debug\FInal_Project.frmQuestionModify.resources

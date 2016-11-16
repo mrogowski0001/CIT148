@@ -91,6 +91,12 @@
     <Compile Include="frmAuthChangePass.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmQuestionModify.Designer.vb">
+      <DependentUpon>frmQuestionModify.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmQuestionModify.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmWelcome.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -166,6 +172,9 @@
   <ItemGroup>
     <EmbeddedResource Include="frmAuthChangePass.resx">
       <DependentUpon>frmAuthChangePass.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQuestionModify.resx">
+      <DependentUpon>frmQuestionModify.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmWelcome.resx">
       <DependentUpon>frmWelcome.vb</DependentUpon>

@@ -82,7 +82,7 @@ Partial Class frmSummary
         Me.btnExitQuiz.Location = New System.Drawing.Point(58, 401)
         Me.btnExitQuiz.Name = "btnExitQuiz"
         Me.btnExitQuiz.Size = New System.Drawing.Size(75, 23)
-        Me.btnExitQuiz.TabIndex = 4
+        Me.btnExitQuiz.TabIndex = 1
         Me.btnExitQuiz.Text = "Exit Quiz"
         Me.btnExitQuiz.UseVisualStyleBackColor = False
         '
@@ -93,7 +93,7 @@ Partial Class frmSummary
         Me.btnsave.Location = New System.Drawing.Point(455, 401)
         Me.btnsave.Name = "btnsave"
         Me.btnsave.Size = New System.Drawing.Size(75, 23)
-        Me.btnsave.TabIndex = 5
+        Me.btnsave.TabIndex = 3
         Me.btnsave.Text = "Save Quiz"
         Me.btnsave.UseVisualStyleBackColor = False
         '
@@ -116,7 +116,7 @@ Partial Class frmSummary
         Me.btnTryAgain.Location = New System.Drawing.Point(259, 401)
         Me.btnTryAgain.Name = "btnTryAgain"
         Me.btnTryAgain.Size = New System.Drawing.Size(75, 23)
-        Me.btnTryAgain.TabIndex = 7
+        Me.btnTryAgain.TabIndex = 2
         Me.btnTryAgain.Text = "Try Again"
         Me.btnTryAgain.UseVisualStyleBackColor = False
         '

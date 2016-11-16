@@ -30,7 +30,6 @@ Partial Class frmForgotPassword
         Me.txtsecurityq2 = New System.Windows.Forms.TextBox()
         Me.btnSubmit = New System.Windows.Forms.Button()
         Me.btnCancel = New System.Windows.Forms.Button()
-        Me.btnForgotUserName = New System.Windows.Forms.Button()
         Me.lblQuestion1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.lblQuestionAnsr1 = New System.Windows.Forms.Label()
@@ -101,18 +100,9 @@ Partial Class frmForgotPassword
         Me.btnCancel.Location = New System.Drawing.Point(401, 344)
         Me.btnCancel.Name = "btnCancel"
         Me.btnCancel.Size = New System.Drawing.Size(75, 23)
-        Me.btnCancel.TabIndex = 8
+        Me.btnCancel.TabIndex = 7
         Me.btnCancel.Text = "Cancel"
         Me.btnCancel.UseVisualStyleBackColor = True
-        '
-        'btnForgotUserName
-        '
-        Me.btnForgotUserName.Location = New System.Drawing.Point(58, 389)
-        Me.btnForgotUserName.Name = "btnForgotUserName"
-        Me.btnForgotUserName.Size = New System.Drawing.Size(418, 23)
-        Me.btnForgotUserName.TabIndex = 7
-        Me.btnForgotUserName.Text = "Forgot User Name"
-        Me.btnForgotUserName.UseVisualStyleBackColor = True
         '
         'lblQuestion1
         '
@@ -160,7 +150,6 @@ Partial Class frmForgotPassword
         Me.Controls.Add(Me.lblQuestionAnsr1)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.lblQuestion1)
-        Me.Controls.Add(Me.btnForgotUserName)
         Me.Controls.Add(Me.btnCancel)
         Me.Controls.Add(Me.btnSubmit)
         Me.Controls.Add(Me.txtsecurityq2)
@@ -183,7 +172,6 @@ Partial Class frmForgotPassword
     Friend WithEvents txtsecurityq2 As System.Windows.Forms.TextBox
     Friend WithEvents btnSubmit As System.Windows.Forms.Button
     Friend WithEvents btnCancel As System.Windows.Forms.Button
-    Friend WithEvents btnForgotUserName As System.Windows.Forms.Button
     Friend WithEvents lblQuestion1 As System.Windows.Forms.Label
     Friend WithEvents Label2 As System.Windows.Forms.Label
     Friend WithEvents lblQuestionAnsr1 As System.Windows.Forms.Label

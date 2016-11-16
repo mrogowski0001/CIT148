@@ -89,7 +89,7 @@ Partial Class frmWelcome
         Me.btnLogin.Location = New System.Drawing.Point(12, 380)
         Me.btnLogin.Name = "btnLogin"
         Me.btnLogin.Size = New System.Drawing.Size(75, 16)
-        Me.btnLogin.TabIndex = 5
+        Me.btnLogin.TabIndex = 1
         Me.btnLogin.Text = "Log In"
         Me.btnLogin.UseVisualStyleBackColor = False
         '

@@ -70,19 +70,28 @@
         Dim Write As New System.IO.StreamWriter(saveFile.FileName)
 
         'writes the information associated with title1
-        Write.Write(lblTitle1.Text + ": ")
+        Write.Write(lblTitle1.Text + ": " + vbNewLine + vbNewLine)
 
         'wrights the information associated with title2
-        Write.Write(lblTitle2.Text + vbNewLine)
+        Write.Write(lblTitle2.Text)
+        Write.Write(vbNewLine)
 
         'wrights the information associated with summarytext
         Write.Write(lblSummartText.Text + vbNewLine + vbNewLine + vbNewLine)
 
-        'writes simple text
+
+        Dim a() As String = IO.File.ReadAllLines("QnA.txt")
+        For Each line As String In a
+            'reads txt file and adds it to the saved file
+            Write.WriteLine(line)
+        Next
+
+        Write.Write(vbNewLine)
+        Write.Write(vbNewLine)
         Write.Write("Try Again?")
 
         'shows a mesagebox file was saved
-        MessageBox.Show("Saved Successfully", "Saved Successfully",MessageBoxButtons.OK)
+        MessageBox.Show("Saved Successfully", "Saved Successfully", MessageBoxButtons.OK)
 
         'closes the write method
         Write.Close()

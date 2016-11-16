@@ -58,7 +58,7 @@ Partial Class frmLogin
         Me.txtUserName.Location = New System.Drawing.Point(220, 63)
         Me.txtUserName.Name = "txtUserName"
         Me.txtUserName.Size = New System.Drawing.Size(268, 20)
-        Me.txtUserName.TabIndex = 2
+        Me.txtUserName.TabIndex = 1
         '
         'btnSubmit
         '
@@ -83,7 +83,7 @@ Partial Class frmLogin
         Me.txtPassword.Location = New System.Drawing.Point(220, 139)
         Me.txtPassword.Name = "txtPassword"
         Me.txtPassword.Size = New System.Drawing.Size(268, 20)
-        Me.txtPassword.TabIndex = 6
+        Me.txtPassword.TabIndex = 2
         '
         'btnForgotPassword
         '
@@ -109,7 +109,7 @@ Partial Class frmLogin
         Me.chkCurrentPass.Location = New System.Drawing.Point(336, 179)
         Me.chkCurrentPass.Name = "chkCurrentPass"
         Me.chkCurrentPass.Size = New System.Drawing.Size(15, 14)
-        Me.chkCurrentPass.TabIndex = 9
+        Me.chkCurrentPass.TabIndex = 3
         Me.chkCurrentPass.UseVisualStyleBackColor = True
         '
         'frmLogin

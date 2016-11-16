@@ -56,7 +56,7 @@ Partial Class frmChangePass
         Me.btnSubmit.Location = New System.Drawing.Point(48, 142)
         Me.btnSubmit.Name = "btnSubmit"
         Me.btnSubmit.Size = New System.Drawing.Size(91, 25)
-        Me.btnSubmit.TabIndex = 4
+        Me.btnSubmit.TabIndex = 3
         Me.btnSubmit.Text = "Submit"
         Me.btnSubmit.UseVisualStyleBackColor = True
         '
@@ -65,7 +65,7 @@ Partial Class frmChangePass
         Me.btnCancel.Location = New System.Drawing.Point(243, 142)
         Me.btnCancel.Name = "btnCancel"
         Me.btnCancel.Size = New System.Drawing.Size(91, 25)
-        Me.btnCancel.TabIndex = 5
+        Me.btnCancel.TabIndex = 4
         Me.btnCancel.Text = "Cancel"
         Me.btnCancel.UseVisualStyleBackColor = True
         '
@@ -74,14 +74,14 @@ Partial Class frmChangePass
         Me.txtConfirmPass.Location = New System.Drawing.Point(142, 78)
         Me.txtConfirmPass.Name = "txtConfirmPass"
         Me.txtConfirmPass.Size = New System.Drawing.Size(192, 20)
-        Me.txtConfirmPass.TabIndex = 7
+        Me.txtConfirmPass.TabIndex = 2
         '
         'txtNewPass
         '
         Me.txtNewPass.Location = New System.Drawing.Point(142, 31)
         Me.txtNewPass.Name = "txtNewPass"
         Me.txtNewPass.Size = New System.Drawing.Size(192, 20)
-        Me.txtNewPass.TabIndex = 9
+        Me.txtNewPass.TabIndex = 1
         '
         'chkNewPass
         '
@@ -92,7 +92,7 @@ Partial Class frmChangePass
         Me.chkNewPass.Location = New System.Drawing.Point(340, 34)
         Me.chkNewPass.Name = "chkNewPass"
         Me.chkNewPass.Size = New System.Drawing.Size(15, 14)
-        Me.chkNewPass.TabIndex = 10
+        Me.chkNewPass.TabIndex = 0
         Me.chkNewPass.TabStop = False
         Me.chkNewPass.UseCompatibleTextRendering = True
         Me.chkNewPass.UseVisualStyleBackColor = True
@@ -105,7 +105,8 @@ Partial Class frmChangePass
         Me.chkConfirmPass.Location = New System.Drawing.Point(340, 81)
         Me.chkConfirmPass.Name = "chkConfirmPass"
         Me.chkConfirmPass.Size = New System.Drawing.Size(15, 14)
-        Me.chkConfirmPass.TabIndex = 11
+        Me.chkConfirmPass.TabIndex = 0
+        Me.chkConfirmPass.TabStop = False
         Me.chkConfirmPass.UseVisualStyleBackColor = True
         '
         'frmChangePass

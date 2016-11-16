@@ -103,7 +103,7 @@
 
     End Sub
     Private Sub frmQuiz_Load() Handles MyBase.Load
-       
+
         For i As Integer = 0 To totalQuestions
 
             'Set all answers to not graded
@@ -246,7 +246,7 @@
         End If
 
         'Give focus to the next button
-       btnNext.Focus()
+        btnNext.Focus()
     End Sub
 
     Private Sub radAns4_CheckedChanged() Handles radAns4.CheckedChanged
@@ -269,7 +269,7 @@
         End If
 
         'Give focus to the next button
-       btnNext.Focus()
+        btnNext.Focus()
     End Sub
 
     Private Sub btnExit_Click() Handles btnExit.Click
@@ -388,6 +388,10 @@
     End Sub
 
     Private Sub lblQuestion_Click(sender As Object, e As EventArgs) Handles lblQuestion.Click
+
+    End Sub
+
+    Private Sub grpAnswers_Enter(sender As Object, e As EventArgs) Handles grpAnswers.Enter
 
     End Sub
 End Class

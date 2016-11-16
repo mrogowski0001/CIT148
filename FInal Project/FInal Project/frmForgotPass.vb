@@ -46,11 +46,11 @@
 
     End Sub
 
-    Private Sub btnForgotUserName_Click(sender As Object, e As EventArgs) Handles btnForgotUserName.Click
+    Private Sub btnForgotUserName_Click(sender As Object, e As EventArgs)
 
     End Sub
 
     Private Sub frmForgotPassword_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
+        txtUserName.Focus()
     End Sub
 End Class

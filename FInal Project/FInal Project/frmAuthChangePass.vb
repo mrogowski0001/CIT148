@@ -24,13 +24,11 @@
         Dim np As String = txtNewPass.Text
         Dim cnp As String = txtConfirmPass.Text
 
+        'if current password, new password, and confirmed new password = true 
+        'then change password
         If txtCurrentPass.Text = setting.savePassword Then
             cp = True
         Else : cp = False
-            MsgBox("Current Password Incorrect", MsgBoxStyle.Critical)
-        End If
-
-        If cp = False Then
             MsgBox("Current Password Incorrect", MsgBoxStyle.Critical)
         End If
 
@@ -44,5 +42,9 @@
         Else
             MsgBox("Passwords do not match!", MsgBoxStyle.Critical)
         End If
+    End Sub
+
+    Private Sub frmAuthChangePass_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
     End Sub
 End Class

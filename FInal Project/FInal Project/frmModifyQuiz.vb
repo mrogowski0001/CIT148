@@ -9,13 +9,13 @@
 
     Private Sub frmModify_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         lstCurrentQuestions.Items.Clear()
+
         'Read txt file and populate lstbox with array of questions
-        Dim q() As String = IO.File.ReadAllLines("Questions.txt")
-        For Each line In q
+            Dim q() As String = IO.File.ReadAllLines("Questions.txt")
+            For Each line In q
+                lstCurrentQuestions.Items.Add(line)
 
-            lstCurrentQuestions.Items.Add(line)
-
-        Next
+            Next
 
     End Sub
 
@@ -28,12 +28,14 @@
 
         End If
 
-        If lstCurrentQuestions.TopIndex = 0 Then
-            Me.Hide()
-            frmQuestionModify.Show()
-        End If
+        Me.Hide()
+        frmQuestionModify.Show()
 
 
+    End Sub
 
+    Private Sub btnCancel_Click(sender As Object, e As EventArgs) Handles btnCancel.Click
+        frmWelcome.Show()
+        Me.Close()
     End Sub
 End Class

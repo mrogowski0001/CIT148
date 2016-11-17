@@ -85,6 +85,7 @@ Partial Class frmChangePass
         '
         'chkNewPass
         '
+        Me.chkNewPass.AutoCheck = False
         Me.chkNewPass.AutoSize = True
         Me.chkNewPass.Checked = Global.FInal_Project.My.MySettings.Default.chkNewPass
         Me.chkNewPass.Enabled = False
@@ -99,6 +100,7 @@ Partial Class frmChangePass
         '
         'chkConfirmPass
         '
+        Me.chkConfirmPass.AutoCheck = False
         Me.chkConfirmPass.AutoSize = True
         Me.chkConfirmPass.Enabled = False
         Me.chkConfirmPass.ForeColor = System.Drawing.Color.DarkRed
@@ -196,6 +198,7 @@ Partial Class frmChangePass
     End Sub
 
     Private Sub txtConfirmPass_MaskInputRejected(sender As Object, e As MaskInputRejectedEventArgs) Handles txtConfirmPass.MaskInputRejected
+        'if both passwords are = change password
         If txtConfirmPass.Text = txtNewPass.Text Then
             chkConfirmPass.Checked = True
         Else : chkConfirmPass.Checked = False

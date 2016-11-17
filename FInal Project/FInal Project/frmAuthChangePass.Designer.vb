@@ -68,6 +68,7 @@ Partial Class frmAuthChangePass
         '
         'chkNewPass
         '
+        Me.chkNewPass.AutoCheck = False
         Me.chkNewPass.AutoSize = True
         Me.chkNewPass.Checked = Global.FInal_Project.My.MySettings.Default.chkNewPass
         Me.chkNewPass.Enabled = False
@@ -82,6 +83,7 @@ Partial Class frmAuthChangePass
         '
         'chkConfirmPass
         '
+        Me.chkConfirmPass.AutoCheck = False
         Me.chkConfirmPass.AutoSize = True
         Me.chkConfirmPass.Enabled = False
         Me.chkConfirmPass.ForeColor = System.Drawing.Color.DarkRed

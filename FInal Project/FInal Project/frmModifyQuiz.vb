@@ -40,4 +40,9 @@
         frmWelcome.Show()
         Me.Close()
     End Sub
+
+    Private Sub btnAdd_Click(sender As Object, e As EventArgs) Handles btnAdd.Click
+        Me.Hide()
+        frmAddQuestion.Show()
+    End Sub
 End Class

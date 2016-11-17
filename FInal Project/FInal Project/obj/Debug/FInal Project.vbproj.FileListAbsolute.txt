@@ -19,3 +19,4 @@ C:\Users\Acega\Source\Repos\CIT148\FInal Project\FInal Project\obj\Debug\FInal P
 C:\Users\Acega\Source\Repos\CIT148\FInal Project\FInal Project\obj\Debug\FInal_Project.frmAuthChangePass.resources
 C:\Users\Acega\Source\Repos\CIT148\FInal Project\FInal Project\obj\Debug\FInal_Project.frmChangePass.resources
 C:\Users\Acega\Source\Repos\CIT148\FInal Project\FInal Project\obj\Debug\FInal_Project.frmQuestionModify.resources
+C:\Users\Acega\Source\Repos\CIT148\FInal Project\FInal Project\obj\Debug\FInal_Project.frmAddQuestion.resources

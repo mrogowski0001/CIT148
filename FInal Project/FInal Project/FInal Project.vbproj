@@ -85,6 +85,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmAddQuestion.Designer.vb">
+      <DependentUpon>frmAddQuestion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddQuestion.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmAuthChangePass.Designer.vb">
       <DependentUpon>frmAuthChangePass.vb</DependentUpon>
     </Compile>
@@ -170,6 +176,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="frmAddQuestion.resx">
+      <DependentUpon>frmAddQuestion.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmAuthChangePass.resx">
       <DependentUpon>frmAuthChangePass.vb</DependentUpon>
     </EmbeddedResource>

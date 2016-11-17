@@ -30,6 +30,7 @@ Partial Class frmQuestionModify
         Me.txtModifiedQ = New System.Windows.Forms.TextBox()
         Me.txtModifiedA = New System.Windows.Forms.TextBox()
         Me.lblModifiedAnswer = New System.Windows.Forms.Label()
+        Me.lstBeforeChangeA = New System.Windows.Forms.ListBox()
         Me.SuspendLayout()
         '
         'lblQuestionNow
@@ -55,7 +56,7 @@ Partial Class frmQuestionModify
         Me.lstBeforeChangeQ.FormattingEnabled = True
         Me.lstBeforeChangeQ.Location = New System.Drawing.Point(12, 31)
         Me.lstBeforeChangeQ.Name = "lstBeforeChangeQ"
-        Me.lstBeforeChangeQ.Size = New System.Drawing.Size(1135, 56)
+        Me.lstBeforeChangeQ.Size = New System.Drawing.Size(506, 56)
         Me.lstBeforeChangeQ.TabIndex = 2
         '
         'btnConfirm
@@ -101,11 +102,20 @@ Partial Class frmQuestionModify
         Me.lblModifiedAnswer.TabIndex = 8
         Me.lblModifiedAnswer.Text = "Please Type Answer Here:"
         '
+        'lstBeforeChangeA
+        '
+        Me.lstBeforeChangeA.FormattingEnabled = True
+        Me.lstBeforeChangeA.Location = New System.Drawing.Point(641, 31)
+        Me.lstBeforeChangeA.Name = "lstBeforeChangeA"
+        Me.lstBeforeChangeA.Size = New System.Drawing.Size(506, 56)
+        Me.lstBeforeChangeA.TabIndex = 9
+        '
         'frmQuestionModify
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1162, 356)
+        Me.Controls.Add(Me.lstBeforeChangeA)
         Me.Controls.Add(Me.lblModifiedAnswer)
         Me.Controls.Add(Me.txtModifiedA)
         Me.Controls.Add(Me.txtModifiedQ)
@@ -128,4 +138,5 @@ Partial Class frmQuestionModify
     Friend WithEvents txtModifiedQ As System.Windows.Forms.TextBox
     Friend WithEvents txtModifiedA As System.Windows.Forms.TextBox
     Friend WithEvents lblModifiedAnswer As System.Windows.Forms.Label
+    Friend WithEvents lstBeforeChangeA As System.Windows.Forms.ListBox
 End Class

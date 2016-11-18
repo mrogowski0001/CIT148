@@ -31,6 +31,7 @@ Partial Class frmQuestionModify
         Me.txtModifiedA = New System.Windows.Forms.TextBox()
         Me.lblModifiedAnswer = New System.Windows.Forms.Label()
         Me.lstBeforeChangeA = New System.Windows.Forms.ListBox()
+        Me.lblAnswersNow = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'lblQuestionNow
@@ -61,7 +62,7 @@ Partial Class frmQuestionModify
         '
         'btnConfirm
         '
-        Me.btnConfirm.Location = New System.Drawing.Point(285, 243)
+        Me.btnConfirm.Location = New System.Drawing.Point(285, 332)
         Me.btnConfirm.Name = "btnConfirm"
         Me.btnConfirm.Size = New System.Drawing.Size(233, 60)
         Me.btnConfirm.TabIndex = 4
@@ -70,7 +71,7 @@ Partial Class frmQuestionModify
         '
         'btnCancel
         '
-        Me.btnCancel.Location = New System.Drawing.Point(641, 243)
+        Me.btnCancel.Location = New System.Drawing.Point(641, 332)
         Me.btnCancel.Name = "btnCancel"
         Me.btnCancel.Size = New System.Drawing.Size(233, 60)
         Me.btnCancel.TabIndex = 5
@@ -98,9 +99,9 @@ Partial Class frmQuestionModify
         Me.lblModifiedAnswer.AutoSize = True
         Me.lblModifiedAnswer.Location = New System.Drawing.Point(638, 118)
         Me.lblModifiedAnswer.Name = "lblModifiedAnswer"
-        Me.lblModifiedAnswer.Size = New System.Drawing.Size(133, 13)
+        Me.lblModifiedAnswer.Size = New System.Drawing.Size(170, 13)
         Me.lblModifiedAnswer.TabIndex = 8
-        Me.lblModifiedAnswer.Text = "Please Type Answer Here:"
+        Me.lblModifiedAnswer.Text = "Please Type Correct Answer Here:"
         '
         'lstBeforeChangeA
         '
@@ -110,11 +111,21 @@ Partial Class frmQuestionModify
         Me.lstBeforeChangeA.Size = New System.Drawing.Size(506, 56)
         Me.lstBeforeChangeA.TabIndex = 9
         '
+        'lblAnswersNow
+        '
+        Me.lblAnswersNow.AutoSize = True
+        Me.lblAnswersNow.Location = New System.Drawing.Point(638, 15)
+        Me.lblAnswersNow.Name = "lblAnswersNow"
+        Me.lblAnswersNow.Size = New System.Drawing.Size(180, 13)
+        Me.lblAnswersNow.TabIndex = 10
+        Me.lblAnswersNow.Text = "Please Type Possible Answers Here:"
+        '
         'frmQuestionModify
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1162, 356)
+        Me.ClientSize = New System.Drawing.Size(1162, 455)
+        Me.Controls.Add(Me.lblAnswersNow)
         Me.Controls.Add(Me.lstBeforeChangeA)
         Me.Controls.Add(Me.lblModifiedAnswer)
         Me.Controls.Add(Me.txtModifiedA)
@@ -139,4 +150,5 @@ Partial Class frmQuestionModify
     Friend WithEvents txtModifiedA As System.Windows.Forms.TextBox
     Friend WithEvents lblModifiedAnswer As System.Windows.Forms.Label
     Friend WithEvents lstBeforeChangeA As System.Windows.Forms.ListBox
+    Friend WithEvents lblAnswersNow As System.Windows.Forms.Label
 End Class

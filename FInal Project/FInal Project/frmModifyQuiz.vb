@@ -15,7 +15,11 @@
             For Each line In q
                 lstCurrentQuestions.Items.Add(line)
 
-            Next
+        Next
+        'makes sure a selection is made, default is question in 0 index
+        If lstCurrentQuestions.SelectedIndex = -1 Then
+            lstCurrentQuestions.SelectedIndex += 1
+        End If
 
     End Sub
 

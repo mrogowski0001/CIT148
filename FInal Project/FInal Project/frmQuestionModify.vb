@@ -12,21 +12,27 @@
         lstBeforeChangeQ.Items.Add(frmModify.lstCurrentQuestions.Text)
 
         Dim linesA() As String = System.IO.File.ReadAllLines("Answers.txt")
+        Try
+            lstBeforeChangeA.Items.Add(linesA(frmModify.lstCurrentQuestions.SelectedIndex))
+        Catch ex As Exception
+            MsgBox("Please select a question to modify!", MsgBoxStyle.OkOnly)
+            frmModify.Show()
+            Me.Close()
 
-        lstBeforeChangeA.Items.Add(linesA(frmModify.lstCurrentQuestions.SelectedIndex))
-
+        End Try
         'uses the selected index to fill in the txtModifiedQ text field with the question number
         'being modified to keep the indexes correct.
         Dim tm As Integer = frmModify.lstCurrentQuestions.SelectedIndex + 1
         txtModifiedQ.Text = tm.ToString + ", "
         txtModifiedA.Text = tm.ToString + ", "
-
+        txtModifiedA.Text = tm.ToString + ", "
     End Sub
 
     Private Sub btnConfirm_Click(sender As Object, e As EventArgs) Handles btnConfirm.Click
         'Reads all lines in the txt file
         Dim linesQ() As String = System.IO.File.ReadAllLines("Questions.txt")
         Dim linesA() As String = System.IO.File.ReadAllLines("Answers.txt")
+        Dim linesca() As String = System.IO.File.ReadAllLines("AnswerKey.txt")
 
 
         'match this index of selected question with the index of in answers.txt 
@@ -39,7 +45,6 @@
         Catch ex As Exception
             MsgBox("Exception" & vbCrLf & ex.Message)
         End Try
-
 
         Try
             linesA(frmModify.lstCurrentQuestions.SelectedIndex) = txtModifiedA.Text

@@ -32,4 +32,10 @@ Public Class frmAddQuestion
         txtCorrectAnswer.Text = CStr(linesAk.Count + 1) + ", "
 
     End Sub
+
+    Private Sub btnCancel_Click(sender As Object, e As EventArgs) Handles btnCancel.Click
+        frmModify.Show()
+        Me.Close()
+
+    End Sub
 End Class

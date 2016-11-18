@@ -47,4 +47,8 @@
     Private Sub frmAuthChangePass_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
     End Sub
+
+    Private Sub chkNewPass_CheckedChanged(sender As Object, e As EventArgs) Handles chkNewPass.CheckedChanged
+
+    End Sub
 End Class

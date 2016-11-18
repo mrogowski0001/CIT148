@@ -37,6 +37,7 @@ Partial Class frmLogin
         '
         Me.lblUserName.AutoSize = True
         Me.lblUserName.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblUserName.ForeColor = System.Drawing.Color.Yellow
         Me.lblUserName.Location = New System.Drawing.Point(68, 61)
         Me.lblUserName.Name = "lblUserName"
         Me.lblUserName.Size = New System.Drawing.Size(103, 20)
@@ -47,6 +48,7 @@ Partial Class frmLogin
         '
         Me.lblPassword.AutoSize = True
         Me.lblPassword.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblPassword.ForeColor = System.Drawing.Color.Yellow
         Me.lblPassword.Location = New System.Drawing.Point(85, 137)
         Me.lblPassword.Name = "lblPassword"
         Me.lblPassword.Size = New System.Drawing.Size(86, 20)
@@ -62,21 +64,25 @@ Partial Class frmLogin
         '
         'btnSubmit
         '
+        Me.btnSubmit.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.btnSubmit.ForeColor = System.Drawing.Color.Yellow
         Me.btnSubmit.Location = New System.Drawing.Point(45, 229)
         Me.btnSubmit.Name = "btnSubmit"
         Me.btnSubmit.Size = New System.Drawing.Size(75, 23)
         Me.btnSubmit.TabIndex = 4
         Me.btnSubmit.Text = "&Submit"
-        Me.btnSubmit.UseVisualStyleBackColor = True
+        Me.btnSubmit.UseVisualStyleBackColor = False
         '
         'btnCancel
         '
+        Me.btnCancel.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.btnCancel.ForeColor = System.Drawing.Color.Yellow
         Me.btnCancel.Location = New System.Drawing.Point(413, 229)
         Me.btnCancel.Name = "btnCancel"
         Me.btnCancel.Size = New System.Drawing.Size(75, 23)
         Me.btnCancel.TabIndex = 5
         Me.btnCancel.Text = "Cancel"
-        Me.btnCancel.UseVisualStyleBackColor = True
+        Me.btnCancel.UseVisualStyleBackColor = False
         '
         'txtPassword
         '
@@ -87,16 +93,19 @@ Partial Class frmLogin
         '
         'btnForgotPassword
         '
+        Me.btnForgotPassword.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.btnForgotPassword.ForeColor = System.Drawing.Color.Yellow
         Me.btnForgotPassword.Location = New System.Drawing.Point(191, 253)
         Me.btnForgotPassword.Name = "btnForgotPassword"
         Me.btnForgotPassword.Size = New System.Drawing.Size(144, 23)
         Me.btnForgotPassword.TabIndex = 7
         Me.btnForgotPassword.Text = "Forgot Password"
-        Me.btnForgotPassword.UseVisualStyleBackColor = True
+        Me.btnForgotPassword.UseVisualStyleBackColor = False
         '
         'lblChangePass
         '
         Me.lblChangePass.AutoSize = True
+        Me.lblChangePass.ForeColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.lblChangePass.Location = New System.Drawing.Point(126, 179)
         Me.lblChangePass.Name = "lblChangePass"
         Me.lblChangePass.Size = New System.Drawing.Size(139, 13)
@@ -106,6 +115,7 @@ Partial Class frmLogin
         'chkCurrentPass
         '
         Me.chkCurrentPass.AutoSize = True
+        Me.chkCurrentPass.ForeColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.chkCurrentPass.Location = New System.Drawing.Point(336, 179)
         Me.chkCurrentPass.Name = "chkCurrentPass"
         Me.chkCurrentPass.Size = New System.Drawing.Size(15, 14)
@@ -116,6 +126,7 @@ Partial Class frmLogin
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.Black
         Me.ClientSize = New System.Drawing.Size(542, 288)
         Me.Controls.Add(Me.chkCurrentPass)
         Me.Controls.Add(Me.lblChangePass)

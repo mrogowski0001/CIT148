@@ -34,21 +34,25 @@ Partial Class frmAddQuestion
         '
         'btnSubmit
         '
+        Me.btnSubmit.BackColor = System.Drawing.Color.Red
+        Me.btnSubmit.ForeColor = System.Drawing.Color.Yellow
         Me.btnSubmit.Location = New System.Drawing.Point(212, 227)
         Me.btnSubmit.Name = "btnSubmit"
         Me.btnSubmit.Size = New System.Drawing.Size(212, 66)
         Me.btnSubmit.TabIndex = 0
         Me.btnSubmit.Text = "Submit"
-        Me.btnSubmit.UseVisualStyleBackColor = True
+        Me.btnSubmit.UseVisualStyleBackColor = False
         '
         'btnCancel
         '
+        Me.btnCancel.BackColor = System.Drawing.Color.Red
+        Me.btnCancel.ForeColor = System.Drawing.Color.Yellow
         Me.btnCancel.Location = New System.Drawing.Point(713, 227)
         Me.btnCancel.Name = "btnCancel"
         Me.btnCancel.Size = New System.Drawing.Size(212, 66)
         Me.btnCancel.TabIndex = 1
         Me.btnCancel.Text = "Cancel"
-        Me.btnCancel.UseVisualStyleBackColor = True
+        Me.btnCancel.UseVisualStyleBackColor = False
         '
         'lblQuestion
         '
@@ -70,6 +74,8 @@ Partial Class frmAddQuestion
         '
         'txtNewQuestion
         '
+        Me.txtNewQuestion.BackColor = System.Drawing.Color.White
+        Me.txtNewQuestion.ForeColor = System.Drawing.Color.Black
         Me.txtNewQuestion.Location = New System.Drawing.Point(12, 37)
         Me.txtNewQuestion.Name = "txtNewQuestion"
         Me.txtNewQuestion.Size = New System.Drawing.Size(571, 171)
@@ -78,6 +84,8 @@ Partial Class frmAddQuestion
         '
         'txtNewAnswer
         '
+        Me.txtNewAnswer.BackColor = System.Drawing.Color.White
+        Me.txtNewAnswer.ForeColor = System.Drawing.Color.Black
         Me.txtNewAnswer.Location = New System.Drawing.Point(604, 37)
         Me.txtNewAnswer.Name = "txtNewAnswer"
         Me.txtNewAnswer.Size = New System.Drawing.Size(571, 95)
@@ -86,6 +94,8 @@ Partial Class frmAddQuestion
         '
         'txtCorrectAnswer
         '
+        Me.txtCorrectAnswer.BackColor = System.Drawing.Color.White
+        Me.txtCorrectAnswer.ForeColor = System.Drawing.Color.Black
         Me.txtCorrectAnswer.Location = New System.Drawing.Point(604, 151)
         Me.txtCorrectAnswer.Name = "txtCorrectAnswer"
         Me.txtCorrectAnswer.Size = New System.Drawing.Size(571, 57)
@@ -105,6 +115,7 @@ Partial Class frmAddQuestion
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.Black
         Me.ClientSize = New System.Drawing.Size(1200, 317)
         Me.Controls.Add(Me.lblCorrectAnswer)
         Me.Controls.Add(Me.txtCorrectAnswer)

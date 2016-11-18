@@ -36,6 +36,7 @@ Partial Class frmChangePass
         'lblNewPass
         '
         Me.lblNewPass.AutoSize = True
+        Me.lblNewPass.ForeColor = System.Drawing.Color.Yellow
         Me.lblNewPass.Location = New System.Drawing.Point(30, 34)
         Me.lblNewPass.Name = "lblNewPass"
         Me.lblNewPass.Size = New System.Drawing.Size(81, 13)
@@ -45,6 +46,7 @@ Partial Class frmChangePass
         'lblConfirmPass
         '
         Me.lblConfirmPass.AutoSize = True
+        Me.lblConfirmPass.ForeColor = System.Drawing.Color.Yellow
         Me.lblConfirmPass.Location = New System.Drawing.Point(14, 81)
         Me.lblConfirmPass.Name = "lblConfirmPass"
         Me.lblConfirmPass.Size = New System.Drawing.Size(97, 13)
@@ -53,21 +55,25 @@ Partial Class frmChangePass
         '
         'btnSubmit
         '
+        Me.btnSubmit.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.btnSubmit.ForeColor = System.Drawing.Color.Yellow
         Me.btnSubmit.Location = New System.Drawing.Point(48, 142)
         Me.btnSubmit.Name = "btnSubmit"
         Me.btnSubmit.Size = New System.Drawing.Size(91, 25)
         Me.btnSubmit.TabIndex = 3
         Me.btnSubmit.Text = "Submit"
-        Me.btnSubmit.UseVisualStyleBackColor = True
+        Me.btnSubmit.UseVisualStyleBackColor = False
         '
         'btnCancel
         '
+        Me.btnCancel.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.btnCancel.ForeColor = System.Drawing.Color.Yellow
         Me.btnCancel.Location = New System.Drawing.Point(243, 142)
         Me.btnCancel.Name = "btnCancel"
         Me.btnCancel.Size = New System.Drawing.Size(91, 25)
         Me.btnCancel.TabIndex = 4
         Me.btnCancel.Text = "Cancel"
-        Me.btnCancel.UseVisualStyleBackColor = True
+        Me.btnCancel.UseVisualStyleBackColor = False
         '
         'txtConfirmPass
         '
@@ -89,7 +95,7 @@ Partial Class frmChangePass
         Me.chkNewPass.AutoSize = True
         Me.chkNewPass.Checked = Global.FInal_Project.My.MySettings.Default.chkNewPass
         Me.chkNewPass.Enabled = False
-        Me.chkNewPass.ForeColor = System.Drawing.Color.DarkRed
+        Me.chkNewPass.ForeColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.chkNewPass.Location = New System.Drawing.Point(340, 34)
         Me.chkNewPass.Name = "chkNewPass"
         Me.chkNewPass.Size = New System.Drawing.Size(15, 14)
@@ -103,7 +109,7 @@ Partial Class frmChangePass
         Me.chkConfirmPass.AutoCheck = False
         Me.chkConfirmPass.AutoSize = True
         Me.chkConfirmPass.Enabled = False
-        Me.chkConfirmPass.ForeColor = System.Drawing.Color.DarkRed
+        Me.chkConfirmPass.ForeColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.chkConfirmPass.Location = New System.Drawing.Point(340, 81)
         Me.chkConfirmPass.Name = "chkConfirmPass"
         Me.chkConfirmPass.Size = New System.Drawing.Size(15, 14)
@@ -115,6 +121,7 @@ Partial Class frmChangePass
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.Black
         Me.ClientSize = New System.Drawing.Size(379, 183)
         Me.Controls.Add(Me.chkConfirmPass)
         Me.Controls.Add(Me.chkNewPass)

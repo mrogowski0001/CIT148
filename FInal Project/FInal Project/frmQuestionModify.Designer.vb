@@ -37,6 +37,7 @@ Partial Class frmQuestionModify
         'lblQuestionNow
         '
         Me.lblQuestionNow.AutoSize = True
+        Me.lblQuestionNow.ForeColor = System.Drawing.Color.Yellow
         Me.lblQuestionNow.Location = New System.Drawing.Point(12, 15)
         Me.lblQuestionNow.Name = "lblQuestionNow"
         Me.lblQuestionNow.Size = New System.Drawing.Size(126, 13)
@@ -46,6 +47,7 @@ Partial Class frmQuestionModify
         'lblModifiedQuestion
         '
         Me.lblModifiedQuestion.AutoSize = True
+        Me.lblModifiedQuestion.ForeColor = System.Drawing.Color.Yellow
         Me.lblModifiedQuestion.Location = New System.Drawing.Point(13, 118)
         Me.lblModifiedQuestion.Name = "lblModifiedQuestion"
         Me.lblModifiedQuestion.Size = New System.Drawing.Size(143, 13)
@@ -62,21 +64,25 @@ Partial Class frmQuestionModify
         '
         'btnConfirm
         '
+        Me.btnConfirm.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.btnConfirm.ForeColor = System.Drawing.Color.Yellow
         Me.btnConfirm.Location = New System.Drawing.Point(285, 332)
         Me.btnConfirm.Name = "btnConfirm"
         Me.btnConfirm.Size = New System.Drawing.Size(233, 60)
         Me.btnConfirm.TabIndex = 4
         Me.btnConfirm.Text = "Confirm"
-        Me.btnConfirm.UseVisualStyleBackColor = True
+        Me.btnConfirm.UseVisualStyleBackColor = False
         '
         'btnCancel
         '
+        Me.btnCancel.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.btnCancel.ForeColor = System.Drawing.Color.Yellow
         Me.btnCancel.Location = New System.Drawing.Point(641, 332)
         Me.btnCancel.Name = "btnCancel"
         Me.btnCancel.Size = New System.Drawing.Size(233, 60)
         Me.btnCancel.TabIndex = 5
         Me.btnCancel.Text = "Cancel"
-        Me.btnCancel.UseVisualStyleBackColor = True
+        Me.btnCancel.UseVisualStyleBackColor = False
         '
         'txtModifiedQ
         '
@@ -97,6 +103,7 @@ Partial Class frmQuestionModify
         'lblModifiedAnswer
         '
         Me.lblModifiedAnswer.AutoSize = True
+        Me.lblModifiedAnswer.ForeColor = System.Drawing.Color.Yellow
         Me.lblModifiedAnswer.Location = New System.Drawing.Point(638, 118)
         Me.lblModifiedAnswer.Name = "lblModifiedAnswer"
         Me.lblModifiedAnswer.Size = New System.Drawing.Size(170, 13)
@@ -114,6 +121,7 @@ Partial Class frmQuestionModify
         'lblAnswersNow
         '
         Me.lblAnswersNow.AutoSize = True
+        Me.lblAnswersNow.ForeColor = System.Drawing.Color.Yellow
         Me.lblAnswersNow.Location = New System.Drawing.Point(638, 15)
         Me.lblAnswersNow.Name = "lblAnswersNow"
         Me.lblAnswersNow.Size = New System.Drawing.Size(180, 13)
@@ -124,6 +132,7 @@ Partial Class frmQuestionModify
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.Black
         Me.ClientSize = New System.Drawing.Size(1162, 455)
         Me.Controls.Add(Me.lblAnswersNow)
         Me.Controls.Add(Me.lstBeforeChangeA)

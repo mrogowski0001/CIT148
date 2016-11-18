@@ -39,6 +39,7 @@ Partial Class frmForgotPassword
         'lblUserName
         '
         Me.lblUserName.AutoSize = True
+        Me.lblUserName.ForeColor = System.Drawing.Color.Yellow
         Me.lblUserName.Location = New System.Drawing.Point(55, 50)
         Me.lblUserName.Name = "lblUserName"
         Me.lblUserName.Size = New System.Drawing.Size(60, 13)
@@ -88,25 +89,30 @@ Partial Class frmForgotPassword
         '
         'btnSubmit
         '
+        Me.btnSubmit.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.btnSubmit.ForeColor = System.Drawing.Color.Yellow
         Me.btnSubmit.Location = New System.Drawing.Point(58, 344)
         Me.btnSubmit.Name = "btnSubmit"
         Me.btnSubmit.Size = New System.Drawing.Size(75, 23)
         Me.btnSubmit.TabIndex = 6
         Me.btnSubmit.Text = "Submit"
-        Me.btnSubmit.UseVisualStyleBackColor = True
+        Me.btnSubmit.UseVisualStyleBackColor = False
         '
         'btnCancel
         '
+        Me.btnCancel.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.btnCancel.ForeColor = System.Drawing.Color.Yellow
         Me.btnCancel.Location = New System.Drawing.Point(401, 344)
         Me.btnCancel.Name = "btnCancel"
         Me.btnCancel.Size = New System.Drawing.Size(75, 23)
         Me.btnCancel.TabIndex = 7
         Me.btnCancel.Text = "Cancel"
-        Me.btnCancel.UseVisualStyleBackColor = True
+        Me.btnCancel.UseVisualStyleBackColor = False
         '
         'lblQuestion1
         '
         Me.lblQuestion1.AutoSize = True
+        Me.lblQuestion1.ForeColor = System.Drawing.Color.Yellow
         Me.lblQuestion1.Location = New System.Drawing.Point(55, 82)
         Me.lblQuestion1.Name = "lblQuestion1"
         Me.lblQuestion1.Size = New System.Drawing.Size(168, 13)
@@ -116,6 +122,7 @@ Partial Class frmForgotPassword
         'Label2
         '
         Me.Label2.AutoSize = True
+        Me.Label2.ForeColor = System.Drawing.Color.Yellow
         Me.Label2.Location = New System.Drawing.Point(55, 204)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(168, 13)
@@ -125,6 +132,7 @@ Partial Class frmForgotPassword
         'lblQuestionAnsr1
         '
         Me.lblQuestionAnsr1.AutoSize = True
+        Me.lblQuestionAnsr1.ForeColor = System.Drawing.Color.Yellow
         Me.lblQuestionAnsr1.Location = New System.Drawing.Point(55, 131)
         Me.lblQuestionAnsr1.Name = "lblQuestionAnsr1"
         Me.lblQuestionAnsr1.Size = New System.Drawing.Size(163, 13)
@@ -134,6 +142,7 @@ Partial Class frmForgotPassword
         'lblQuestionAnsr2
         '
         Me.lblQuestionAnsr2.AutoSize = True
+        Me.lblQuestionAnsr2.ForeColor = System.Drawing.Color.Yellow
         Me.lblQuestionAnsr2.Location = New System.Drawing.Point(55, 252)
         Me.lblQuestionAnsr2.Name = "lblQuestionAnsr2"
         Me.lblQuestionAnsr2.Size = New System.Drawing.Size(163, 13)
@@ -145,6 +154,7 @@ Partial Class frmForgotPassword
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoScroll = True
+        Me.BackColor = System.Drawing.Color.Black
         Me.ClientSize = New System.Drawing.Size(563, 422)
         Me.Controls.Add(Me.lblQuestionAnsr2)
         Me.Controls.Add(Me.lblQuestionAnsr1)

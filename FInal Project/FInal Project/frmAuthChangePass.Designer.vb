@@ -37,6 +37,7 @@ Partial Class frmAuthChangePass
         'lblNewPass
         '
         Me.lblNewPass.AutoSize = True
+        Me.lblNewPass.ForeColor = System.Drawing.Color.Yellow
         Me.lblNewPass.Location = New System.Drawing.Point(32, 82)
         Me.lblNewPass.Name = "lblNewPass"
         Me.lblNewPass.Size = New System.Drawing.Size(81, 13)
@@ -45,6 +46,7 @@ Partial Class frmAuthChangePass
         '
         'txtNewPass
         '
+        Me.txtNewPass.ForeColor = System.Drawing.Color.Black
         Me.txtNewPass.Location = New System.Drawing.Point(157, 79)
         Me.txtNewPass.Name = "txtNewPass"
         Me.txtNewPass.Size = New System.Drawing.Size(192, 20)
@@ -53,6 +55,7 @@ Partial Class frmAuthChangePass
         'lblConfirmPass
         '
         Me.lblConfirmPass.AutoSize = True
+        Me.lblConfirmPass.ForeColor = System.Drawing.Color.Yellow
         Me.lblConfirmPass.Location = New System.Drawing.Point(16, 141)
         Me.lblConfirmPass.Name = "lblConfirmPass"
         Me.lblConfirmPass.Size = New System.Drawing.Size(97, 13)
@@ -61,6 +64,7 @@ Partial Class frmAuthChangePass
         '
         'txtConfirmPass
         '
+        Me.txtConfirmPass.ForeColor = System.Drawing.Color.Black
         Me.txtConfirmPass.Location = New System.Drawing.Point(157, 138)
         Me.txtConfirmPass.Name = "txtConfirmPass"
         Me.txtConfirmPass.Size = New System.Drawing.Size(192, 20)
@@ -70,33 +74,36 @@ Partial Class frmAuthChangePass
         '
         Me.chkNewPass.AutoCheck = False
         Me.chkNewPass.AutoSize = True
+        Me.chkNewPass.BackColor = System.Drawing.Color.Black
         Me.chkNewPass.Checked = Global.FInal_Project.My.MySettings.Default.chkNewPass
         Me.chkNewPass.Enabled = False
-        Me.chkNewPass.ForeColor = System.Drawing.Color.DarkRed
+        Me.chkNewPass.ForeColor = System.Drawing.SystemColors.Control
         Me.chkNewPass.Location = New System.Drawing.Point(355, 82)
         Me.chkNewPass.Name = "chkNewPass"
         Me.chkNewPass.Size = New System.Drawing.Size(15, 14)
         Me.chkNewPass.TabIndex = 0
         Me.chkNewPass.TabStop = False
         Me.chkNewPass.UseCompatibleTextRendering = True
-        Me.chkNewPass.UseVisualStyleBackColor = True
+        Me.chkNewPass.UseVisualStyleBackColor = False
         '
         'chkConfirmPass
         '
         Me.chkConfirmPass.AutoCheck = False
         Me.chkConfirmPass.AutoSize = True
+        Me.chkConfirmPass.BackColor = System.Drawing.Color.Black
         Me.chkConfirmPass.Enabled = False
-        Me.chkConfirmPass.ForeColor = System.Drawing.Color.DarkRed
+        Me.chkConfirmPass.ForeColor = System.Drawing.SystemColors.Control
         Me.chkConfirmPass.Location = New System.Drawing.Point(355, 141)
         Me.chkConfirmPass.Name = "chkConfirmPass"
         Me.chkConfirmPass.Size = New System.Drawing.Size(15, 14)
         Me.chkConfirmPass.TabIndex = 0
         Me.chkConfirmPass.TabStop = False
-        Me.chkConfirmPass.UseVisualStyleBackColor = True
+        Me.chkConfirmPass.UseVisualStyleBackColor = False
         '
         'lblCurrentPass
         '
         Me.lblCurrentPass.AutoSize = True
+        Me.lblCurrentPass.ForeColor = System.Drawing.Color.Yellow
         Me.lblCurrentPass.Location = New System.Drawing.Point(20, 38)
         Me.lblCurrentPass.Name = "lblCurrentPass"
         Me.lblCurrentPass.Size = New System.Drawing.Size(93, 13)
@@ -105,6 +112,7 @@ Partial Class frmAuthChangePass
         '
         'txtCurrentPass
         '
+        Me.txtCurrentPass.ForeColor = System.Drawing.Color.Black
         Me.txtCurrentPass.Location = New System.Drawing.Point(157, 35)
         Me.txtCurrentPass.Name = "txtCurrentPass"
         Me.txtCurrentPass.Size = New System.Drawing.Size(192, 20)
@@ -112,26 +120,31 @@ Partial Class frmAuthChangePass
         '
         'btnSubmit
         '
+        Me.btnSubmit.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.btnSubmit.ForeColor = System.Drawing.Color.Yellow
         Me.btnSubmit.Location = New System.Drawing.Point(62, 186)
         Me.btnSubmit.Name = "btnSubmit"
         Me.btnSubmit.Size = New System.Drawing.Size(91, 25)
         Me.btnSubmit.TabIndex = 4
         Me.btnSubmit.Text = "Submit"
-        Me.btnSubmit.UseVisualStyleBackColor = True
+        Me.btnSubmit.UseVisualStyleBackColor = False
         '
         'btnCancel
         '
+        Me.btnCancel.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.btnCancel.ForeColor = System.Drawing.Color.Yellow
         Me.btnCancel.Location = New System.Drawing.Point(225, 186)
         Me.btnCancel.Name = "btnCancel"
         Me.btnCancel.Size = New System.Drawing.Size(91, 25)
         Me.btnCancel.TabIndex = 5
         Me.btnCancel.Text = "Cancel"
-        Me.btnCancel.UseVisualStyleBackColor = True
+        Me.btnCancel.UseVisualStyleBackColor = False
         '
         'frmAuthChangePass
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.Black
         Me.ClientSize = New System.Drawing.Size(379, 223)
         Me.Controls.Add(Me.btnCancel)
         Me.Controls.Add(Me.btnSubmit)
@@ -143,6 +156,7 @@ Partial Class frmAuthChangePass
         Me.Controls.Add(Me.lblConfirmPass)
         Me.Controls.Add(Me.txtNewPass)
         Me.Controls.Add(Me.lblNewPass)
+        Me.ForeColor = System.Drawing.SystemColors.ControlText
         Me.Name = "frmAuthChangePass"
         Me.Text = "frmAuthChangePass"
         Me.ResumeLayout(False)

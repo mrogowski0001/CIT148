@@ -32,25 +32,30 @@ Partial Class frmModify
         '
         'btnModify
         '
+        Me.btnModify.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.btnModify.ForeColor = System.Drawing.Color.Yellow
         Me.btnModify.Location = New System.Drawing.Point(31, 290)
         Me.btnModify.Name = "btnModify"
         Me.btnModify.Size = New System.Drawing.Size(75, 23)
         Me.btnModify.TabIndex = 0
         Me.btnModify.Text = "Modify"
-        Me.btnModify.UseVisualStyleBackColor = True
+        Me.btnModify.UseVisualStyleBackColor = False
         '
         'btnCancel
         '
+        Me.btnCancel.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.btnCancel.ForeColor = System.Drawing.Color.Yellow
         Me.btnCancel.Location = New System.Drawing.Point(447, 290)
         Me.btnCancel.Name = "btnCancel"
         Me.btnCancel.Size = New System.Drawing.Size(75, 23)
         Me.btnCancel.TabIndex = 1
         Me.btnCancel.Text = "Cancel"
-        Me.btnCancel.UseVisualStyleBackColor = True
+        Me.btnCancel.UseVisualStyleBackColor = False
         '
         'lblCurrentQuestions
         '
         Me.lblCurrentQuestions.AutoSize = True
+        Me.lblCurrentQuestions.ForeColor = System.Drawing.Color.Yellow
         Me.lblCurrentQuestions.Location = New System.Drawing.Point(12, 19)
         Me.lblCurrentQuestions.Name = "lblCurrentQuestions"
         Me.lblCurrentQuestions.Size = New System.Drawing.Size(94, 13)
@@ -59,12 +64,14 @@ Partial Class frmModify
         '
         'btnAdd
         '
+        Me.btnAdd.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.btnAdd.ForeColor = System.Drawing.Color.Yellow
         Me.btnAdd.Location = New System.Drawing.Point(174, 290)
         Me.btnAdd.Name = "btnAdd"
         Me.btnAdd.Size = New System.Drawing.Size(75, 23)
         Me.btnAdd.TabIndex = 4
         Me.btnAdd.Text = "Add"
-        Me.btnAdd.UseVisualStyleBackColor = True
+        Me.btnAdd.UseVisualStyleBackColor = False
         '
         'lstCurrentQuestions
         '
@@ -76,17 +83,20 @@ Partial Class frmModify
         '
         'btnRemove
         '
+        Me.btnRemove.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.btnRemove.ForeColor = System.Drawing.Color.Yellow
         Me.btnRemove.Location = New System.Drawing.Point(310, 290)
         Me.btnRemove.Name = "btnRemove"
         Me.btnRemove.Size = New System.Drawing.Size(75, 23)
         Me.btnRemove.TabIndex = 6
         Me.btnRemove.Text = "Remove"
-        Me.btnRemove.UseVisualStyleBackColor = True
+        Me.btnRemove.UseVisualStyleBackColor = False
         '
         'frmModify
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.Black
         Me.ClientSize = New System.Drawing.Size(553, 352)
         Me.Controls.Add(Me.btnRemove)
         Me.Controls.Add(Me.lstCurrentQuestions)

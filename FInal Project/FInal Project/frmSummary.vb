@@ -24,15 +24,15 @@
 
         'Display message box based on the average score
         If average >= 99 Then
-            lblSummartText.Text = ("Woo Hoo! You're a genius! You scored " & CStr(average) & "%" & Environment.NewLine & sumText)
+            lblSummartText.Text = ("Woo Hoo! You're a genius! You scored " & CStr(average.ToString("n")) & "%" & Environment.NewLine & sumText)
         ElseIf average >= 90 Then
-            lblSummartText.Text = ("Sweet!, You totaly scored " & CStr(average) & "%" & Environment.NewLine & sumText)
+            lblSummartText.Text = ("Sweet!, You totaly scored " & CStr(average.ToString("n")) & "%" & Environment.NewLine & sumText)
         ElseIf average >= 80 Then
-            lblSummartText.Text = (" Righteous! You scored " & CStr(average) & "%" & Environment.NewLine & sumText)
+            lblSummartText.Text = (" Righteous! You scored " & CStr(average.ToString("n")) & "%" & Environment.NewLine & sumText)
         ElseIf average >= 70 Then
-            lblSummartText.Text = ("Good Job! You scored " & CStr(average) & "%" & Environment.NewLine & sumText)
+            lblSummartText.Text = ("Good Job! You scored " & CStr(average.ToString("n")) & "%" & Environment.NewLine & sumText)
         Else
-            lblSummartText.Text = ("You suck! You only scored a pathetic " & CStr(average) & "%" & Environment.NewLine & sumText)
+            lblSummartText.Text = ("You suck! You only scored a pathetic " & CStr(average.ToString("n")) & "%" & Environment.NewLine & sumText)
         End If
 
         'Clear the list box before populating the list box with the results
@@ -72,19 +72,26 @@
         'writes the information associated with title1
         Write.Write(lblTitle1.Text + ": " + vbNewLine + vbNewLine)
 
-        'wrights the information associated with title2
+        'writes the information associated with title2
         Write.Write(lblTitle2.Text)
         Write.Write(vbNewLine)
 
-        'wrights the information associated with summarytext
+        'writes the information associated with summarytext
         Write.Write(lblSummartText.Text + vbNewLine + vbNewLine + vbNewLine)
 
 
-        Dim a() As String = IO.File.ReadAllLines("QnA.txt")
-        For Each line As String In a
+        'Dim a() As String = IO.File.ReadAllLines("QnA.txt")
+        Dim q() As String = IO.File.ReadAllLines("Questions.txt")
+        Dim a() As String = IO.File.ReadAllLines("AnswerKey.txt")
+        Dim dd() As String = IO.File.ReadAllLines("DontDelete.txt")
+
+        'For Each line As String In a
+        For Each line As String In q.Concat(dd).Concat(a)
             'reads txt file and adds it to the saved file
+            'Write.WriteLine(line)
             Write.WriteLine(line)
         Next
+
 
         Write.Write(vbNewLine)
         Write.Write(vbNewLine)
@@ -122,6 +129,10 @@
         Me.Hide()
         'Brings back the welcome form to retake the quiz
         frmWelcome.Show()
+
+    End Sub
+
+    Private Sub lblSummartText_Click(sender As Object, e As EventArgs) Handles lblSummartText.Click
 
     End Sub
 End Class

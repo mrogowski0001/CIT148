@@ -1,8 +1,10 @@
-﻿Public Class frmModify
+﻿Imports System
+Imports System.IO
+Public Class frmModify
 
     Private Sub lstCurrentQuestions_SelectedIndexChanged(sender As Object, e As EventArgs) Handles lstCurrentQuestions.SelectedIndexChanged
 
-       
+
 
 
     End Sub
@@ -11,9 +13,9 @@
         lstCurrentQuestions.Items.Clear()
 
         'Read txt file and populate lstbox with array of questions
-            Dim q() As String = IO.File.ReadAllLines("Questions.txt")
-            For Each line In q
-                lstCurrentQuestions.Items.Add(line)
+        Dim q() As String = IO.File.ReadAllLines("Questions.txt")
+        For Each line In q
+            lstCurrentQuestions.Items.Add(line)
 
         Next
         'makes sure a selection is made, default is question in 0 index
@@ -48,5 +50,8 @@
     Private Sub btnAdd_Click(sender As Object, e As EventArgs) Handles btnAdd.Click
         Me.Hide()
         frmAddQuestion.Show()
+    End Sub
+    Private Sub btnRemove_Click(sender As Object, e As EventArgs) Handles btnRemove.Click
+
     End Sub
 End Class

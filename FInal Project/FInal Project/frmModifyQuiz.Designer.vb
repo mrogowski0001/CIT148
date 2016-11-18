@@ -27,11 +27,12 @@ Partial Class frmModify
         Me.lblCurrentQuestions = New System.Windows.Forms.Label()
         Me.btnAdd = New System.Windows.Forms.Button()
         Me.lstCurrentQuestions = New System.Windows.Forms.ListBox()
+        Me.btnRemove = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'btnModify
         '
-        Me.btnModify.Location = New System.Drawing.Point(56, 290)
+        Me.btnModify.Location = New System.Drawing.Point(31, 290)
         Me.btnModify.Name = "btnModify"
         Me.btnModify.Size = New System.Drawing.Size(75, 23)
         Me.btnModify.TabIndex = 0
@@ -40,7 +41,7 @@ Partial Class frmModify
         '
         'btnCancel
         '
-        Me.btnCancel.Location = New System.Drawing.Point(406, 290)
+        Me.btnCancel.Location = New System.Drawing.Point(447, 290)
         Me.btnCancel.Name = "btnCancel"
         Me.btnCancel.Size = New System.Drawing.Size(75, 23)
         Me.btnCancel.TabIndex = 1
@@ -58,7 +59,7 @@ Partial Class frmModify
         '
         'btnAdd
         '
-        Me.btnAdd.Location = New System.Drawing.Point(235, 290)
+        Me.btnAdd.Location = New System.Drawing.Point(174, 290)
         Me.btnAdd.Name = "btnAdd"
         Me.btnAdd.Size = New System.Drawing.Size(75, 23)
         Me.btnAdd.TabIndex = 4
@@ -73,11 +74,21 @@ Partial Class frmModify
         Me.lstCurrentQuestions.Size = New System.Drawing.Size(526, 147)
         Me.lstCurrentQuestions.TabIndex = 5
         '
+        'btnRemove
+        '
+        Me.btnRemove.Location = New System.Drawing.Point(310, 290)
+        Me.btnRemove.Name = "btnRemove"
+        Me.btnRemove.Size = New System.Drawing.Size(75, 23)
+        Me.btnRemove.TabIndex = 6
+        Me.btnRemove.Text = "Remove"
+        Me.btnRemove.UseVisualStyleBackColor = True
+        '
         'frmModify
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(553, 352)
+        Me.Controls.Add(Me.btnRemove)
         Me.Controls.Add(Me.lstCurrentQuestions)
         Me.Controls.Add(Me.btnAdd)
         Me.Controls.Add(Me.lblCurrentQuestions)
@@ -94,4 +105,5 @@ Partial Class frmModify
     Friend WithEvents lblCurrentQuestions As System.Windows.Forms.Label
     Friend WithEvents btnAdd As System.Windows.Forms.Button
     Friend WithEvents lstCurrentQuestions As System.Windows.Forms.ListBox
+    Friend WithEvents btnRemove As System.Windows.Forms.Button
 End Class

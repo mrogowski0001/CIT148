@@ -10,11 +10,23 @@ FInalProject
 	<summary>
 Represents the strongly named DataTable class.
 </summary>
+</member><member name="T:FInal_Project.QuizDataSet._Sheet1__ImportErrorsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
 </member><member name="T:FInal_Project.QuizDataSet.QuestionsRow">
 	<summary>
 Represents strongly named DataRow class.
 </summary>
+</member><member name="T:FInal_Project.QuizDataSet._Sheet1__ImportErrorsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
 </member><member name="T:FInal_Project.QuizDataSet.QuestionsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FInal_Project.QuizDataSet._Sheet1__ImportErrorsRowChangeEvent">
 	<summary>
 Row event argument class
 </summary>
@@ -23,6 +35,10 @@ Row event argument class
 Represents a strongly typed in-memory cache of data.
 </summary>
 </member><member name="T:FInal_Project.QuizDataSetTableAdapters.QuestionsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:FInal_Project.QuizDataSetTableAdapters.Sheet1__ImportErrorsTableAdapter">
 	<summary>
 Represents the connection and commands used to retrieve and save data.
 </summary>

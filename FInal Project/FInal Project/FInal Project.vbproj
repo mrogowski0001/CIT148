@@ -70,6 +70,13 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Comparer.vb" />
+    <Compile Include="frmChooseChapter.Designer.vb">
+      <DependentUpon>frmChooseChapter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmChooseChapter.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmWelcome.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -124,6 +131,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="frmChooseChapter.resx">
+      <DependentUpon>frmChooseChapter.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmWelcome.resx">
       <DependentUpon>frmWelcome.vb</DependentUpon>
     </EmbeddedResource>
@@ -168,11 +178,6 @@
     <None Include="QuizDataSet.xss">
       <DependentUpon>QuizDataSet.xsd</DependentUpon>
     </None>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Quiz.mdb">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

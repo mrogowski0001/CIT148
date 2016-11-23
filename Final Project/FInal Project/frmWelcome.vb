@@ -1,13 +1,15 @@
 ﻿Public Class frmWelcome
 
     'Declare variables for welcome text and quizForm
+    Dim counter As Integer = 0
     Dim welcomeText() As String = IO.File.ReadAllLines("WelcomeText.txt")
-    Dim quizForm As New frmQuiz
+
 
     Private Sub btnBegin_Click() Handles btnBegin.Click
 
         'Open the quiz form and hides the welcome form
-        quizForm.Show()
+        frmChooseChapter.Show()
+        'quizForm.Show()
         Me.Hide()
 
     End Sub

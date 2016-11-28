@@ -27,7 +27,7 @@ Partial Class frmModify
         Me.lblCurrentQuestions = New System.Windows.Forms.Label()
         Me.btnAdd = New System.Windows.Forms.Button()
         Me.lstCurrentQuestions = New System.Windows.Forms.ListBox()
-        Me.btnRemove = New System.Windows.Forms.Button()
+        Me.txthidden = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
         '
         'btnModify
@@ -66,7 +66,7 @@ Partial Class frmModify
         '
         Me.btnAdd.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.btnAdd.ForeColor = System.Drawing.Color.Yellow
-        Me.btnAdd.Location = New System.Drawing.Point(174, 290)
+        Me.btnAdd.Location = New System.Drawing.Point(233, 290)
         Me.btnAdd.Name = "btnAdd"
         Me.btnAdd.Size = New System.Drawing.Size(75, 23)
         Me.btnAdd.TabIndex = 4
@@ -81,16 +81,15 @@ Partial Class frmModify
         Me.lstCurrentQuestions.Size = New System.Drawing.Size(526, 147)
         Me.lstCurrentQuestions.TabIndex = 5
         '
-        'btnRemove
+        'txthidden
         '
-        Me.btnRemove.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.btnRemove.ForeColor = System.Drawing.Color.Yellow
-        Me.btnRemove.Location = New System.Drawing.Point(310, 290)
-        Me.btnRemove.Name = "btnRemove"
-        Me.btnRemove.Size = New System.Drawing.Size(75, 23)
-        Me.btnRemove.TabIndex = 6
-        Me.btnRemove.Text = "Remove"
-        Me.btnRemove.UseVisualStyleBackColor = False
+        Me.txthidden.BackColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.txthidden.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txthidden.Location = New System.Drawing.Point(531, 1)
+        Me.txthidden.Name = "txthidden"
+        Me.txthidden.ReadOnly = True
+        Me.txthidden.Size = New System.Drawing.Size(10, 13)
+        Me.txthidden.TabIndex = 7
         '
         'frmModify
         '
@@ -98,7 +97,7 @@ Partial Class frmModify
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Black
         Me.ClientSize = New System.Drawing.Size(553, 352)
-        Me.Controls.Add(Me.btnRemove)
+        Me.Controls.Add(Me.txthidden)
         Me.Controls.Add(Me.lstCurrentQuestions)
         Me.Controls.Add(Me.btnAdd)
         Me.Controls.Add(Me.lblCurrentQuestions)
@@ -115,5 +114,5 @@ Partial Class frmModify
     Friend WithEvents lblCurrentQuestions As System.Windows.Forms.Label
     Friend WithEvents btnAdd As System.Windows.Forms.Button
     Friend WithEvents lstCurrentQuestions As System.Windows.Forms.ListBox
-    Friend WithEvents btnRemove As System.Windows.Forms.Button
+    Friend WithEvents txthidden As System.Windows.Forms.TextBox
 End Class

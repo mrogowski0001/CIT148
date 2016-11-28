@@ -8,7 +8,6 @@ Public Class frmModify
 
 
     End Sub
-
     Private Sub frmModify_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         lstCurrentQuestions.Items.Clear()
 
@@ -24,7 +23,6 @@ Public Class frmModify
         End If
 
     End Sub
-
     Private Sub btnModify_Click(sender As Object, e As EventArgs) Handles btnModify.Click
         'Check to see if selected list item is index 0 
         'if not selected becomes index 0
@@ -51,7 +49,7 @@ Public Class frmModify
         Me.Hide()
         frmAddQuestion.Show()
     End Sub
-    Private Sub btnRemove_Click(sender As Object, e As EventArgs) Handles btnRemove.Click
+    Private Sub btnRemove_Click(sender As Object, e As EventArgs)
 
     End Sub
 End Class
